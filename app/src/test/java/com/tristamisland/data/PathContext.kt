@@ -1,0 +1,128 @@
+@file:Suppress("DEPRECATION", "OVERRIDE_DEPRECATION")
+
+package com.tristamisland.data
+
+import android.content.Context
+import java.io.File
+import java.lang.Class
+
+/**
+ * Context that only resolves a database file path.
+ * Room's file builder asks for that path and nothing else in these tests.
+ */
+class PathContext(
+    private val root: File,
+) : Context() {
+    override fun getDatabasePath(name: String): File {
+        val requested = File(name)
+        return if (requested.isAbsolute) requested else File(root, name)
+    }
+
+    override fun getApplicationContext(): Context = this
+
+    override fun getSystemService(name: String): Any? = null
+
+    override fun bindService(arg0: android.content.Intent, arg1: android.content.ServiceConnection, arg2: Int): Boolean = unsupported()
+    override fun checkCallingOrSelfPermission(arg0: String): Int = unsupported()
+    override fun checkCallingOrSelfUriPermission(arg0: android.net.Uri, arg1: Int): Int = unsupported()
+    override fun checkCallingPermission(arg0: String): Int = unsupported()
+    override fun checkCallingUriPermission(arg0: android.net.Uri, arg1: Int): Int = unsupported()
+    override fun checkPermission(arg0: String, arg1: Int, arg2: Int): Int = unsupported()
+    override fun checkSelfPermission(arg0: String): Int = unsupported()
+    override fun checkUriPermission(arg0: android.net.Uri, arg1: Int, arg2: Int, arg3: Int): Int = unsupported()
+    override fun checkUriPermission(arg0: android.net.Uri?, arg1: String?, arg2: String?, arg3: Int, arg4: Int, arg5: Int): Int = unsupported()
+    override fun clearWallpaper(): Unit = unsupported()
+    override fun createConfigurationContext(arg0: android.content.res.Configuration): android.content.Context = unsupported()
+    override fun createContextForSplit(arg0: String): android.content.Context = unsupported()
+    override fun createDeviceProtectedStorageContext(): android.content.Context = unsupported()
+    override fun createDisplayContext(arg0: android.view.Display): android.content.Context = unsupported()
+    override fun createPackageContext(arg0: String, arg1: Int): android.content.Context = unsupported()
+    override fun databaseList(): Array<String> = unsupported()
+    override fun deleteDatabase(arg0: String): Boolean = unsupported()
+    override fun deleteFile(arg0: String): Boolean = unsupported()
+    override fun deleteSharedPreferences(arg0: String): Boolean = unsupported()
+    override fun enforceCallingOrSelfPermission(arg0: String, arg1: String?): Unit = unsupported()
+    override fun enforceCallingOrSelfUriPermission(arg0: android.net.Uri, arg1: Int, arg2: String): Unit = unsupported()
+    override fun enforceCallingPermission(arg0: String, arg1: String?): Unit = unsupported()
+    override fun enforceCallingUriPermission(arg0: android.net.Uri, arg1: Int, arg2: String): Unit = unsupported()
+    override fun enforcePermission(arg0: String, arg1: Int, arg2: Int, arg3: String?): Unit = unsupported()
+    override fun enforceUriPermission(arg0: android.net.Uri, arg1: Int, arg2: Int, arg3: Int, arg4: String): Unit = unsupported()
+    override fun enforceUriPermission(arg0: android.net.Uri?, arg1: String?, arg2: String?, arg3: Int, arg4: Int, arg5: Int, arg6: String?): Unit = unsupported()
+    override fun fileList(): Array<String> = unsupported()
+    override fun getApplicationInfo(): android.content.pm.ApplicationInfo = unsupported()
+    override fun getAssets(): android.content.res.AssetManager = unsupported()
+    override fun getCacheDir(): java.io.File = unsupported()
+    override fun getClassLoader(): java.lang.ClassLoader = unsupported()
+    override fun getCodeCacheDir(): java.io.File = unsupported()
+    override fun getContentResolver(): android.content.ContentResolver = unsupported()
+    override fun getDataDir(): java.io.File = unsupported()
+    override fun getDir(arg0: String, arg1: Int): java.io.File = unsupported()
+    override fun getExternalCacheDir(): java.io.File = unsupported()
+    override fun getExternalCacheDirs(): Array<java.io.File> = unsupported()
+    override fun getExternalFilesDir(arg0: String?): java.io.File? = unsupported()
+    override fun getExternalFilesDirs(arg0: String): Array<java.io.File> = unsupported()
+    override fun getExternalMediaDirs(): Array<java.io.File> = unsupported()
+    override fun getFileStreamPath(arg0: String): java.io.File = unsupported()
+    override fun getFilesDir(): java.io.File = unsupported()
+    override fun getMainLooper(): android.os.Looper = unsupported()
+    override fun getNoBackupFilesDir(): java.io.File = unsupported()
+    override fun getObbDir(): java.io.File = unsupported()
+    override fun getObbDirs(): Array<java.io.File> = unsupported()
+    override fun getPackageCodePath(): String = unsupported()
+    override fun getPackageManager(): android.content.pm.PackageManager = unsupported()
+    override fun getPackageName(): String = unsupported()
+    override fun getPackageResourcePath(): String = unsupported()
+    override fun getResources(): android.content.res.Resources = unsupported()
+    override fun getSharedPreferences(arg0: String, arg1: Int): android.content.SharedPreferences = unsupported()
+    override fun getSystemServiceName(arg0: Class<*>): String = unsupported()
+    override fun getTheme(): android.content.res.Resources.Theme = unsupported()
+    override fun getWallpaper(): android.graphics.drawable.Drawable = unsupported()
+    override fun getWallpaperDesiredMinimumHeight(): Int = unsupported()
+    override fun getWallpaperDesiredMinimumWidth(): Int = unsupported()
+    override fun grantUriPermission(arg0: String, arg1: android.net.Uri, arg2: Int): Unit = unsupported()
+    override fun isDeviceProtectedStorage(): Boolean = unsupported()
+    override fun moveDatabaseFrom(arg0: android.content.Context, arg1: String): Boolean = unsupported()
+    override fun moveSharedPreferencesFrom(arg0: android.content.Context, arg1: String): Boolean = unsupported()
+    override fun openFileInput(arg0: String): java.io.FileInputStream = unsupported()
+    override fun openFileOutput(arg0: String, arg1: Int): java.io.FileOutputStream = unsupported()
+    override fun openOrCreateDatabase(arg0: String, arg1: Int, arg2: android.database.sqlite.SQLiteDatabase.CursorFactory): android.database.sqlite.SQLiteDatabase = unsupported()
+    override fun openOrCreateDatabase(arg0: String, arg1: Int, arg2: android.database.sqlite.SQLiteDatabase.CursorFactory, arg3: android.database.DatabaseErrorHandler?): android.database.sqlite.SQLiteDatabase = unsupported()
+    override fun peekWallpaper(): android.graphics.drawable.Drawable = unsupported()
+    override fun registerReceiver(arg0: android.content.BroadcastReceiver?, arg1: android.content.IntentFilter): android.content.Intent? = unsupported()
+    override fun registerReceiver(arg0: android.content.BroadcastReceiver?, arg1: android.content.IntentFilter, arg2: Int): android.content.Intent? = unsupported()
+    override fun registerReceiver(arg0: android.content.BroadcastReceiver, arg1: android.content.IntentFilter, arg2: String?, arg3: android.os.Handler?): android.content.Intent? = unsupported()
+    override fun registerReceiver(arg0: android.content.BroadcastReceiver, arg1: android.content.IntentFilter, arg2: String?, arg3: android.os.Handler?, arg4: Int): android.content.Intent? = unsupported()
+    override fun removeStickyBroadcast(arg0: android.content.Intent): Unit = unsupported()
+    override fun removeStickyBroadcastAsUser(arg0: android.content.Intent, arg1: android.os.UserHandle): Unit = unsupported()
+    override fun revokeUriPermission(arg0: android.net.Uri, arg1: Int): Unit = unsupported()
+    override fun revokeUriPermission(arg0: String, arg1: android.net.Uri, arg2: Int): Unit = unsupported()
+    override fun sendBroadcast(arg0: android.content.Intent): Unit = unsupported()
+    override fun sendBroadcast(arg0: android.content.Intent, arg1: String?): Unit = unsupported()
+    override fun sendBroadcastAsUser(arg0: android.content.Intent, arg1: android.os.UserHandle): Unit = unsupported()
+    override fun sendBroadcastAsUser(arg0: android.content.Intent, arg1: android.os.UserHandle, arg2: String?): Unit = unsupported()
+    override fun sendOrderedBroadcast(arg0: android.content.Intent, arg1: String?): Unit = unsupported()
+    override fun sendOrderedBroadcast(arg0: android.content.Intent, arg1: String?, arg2: android.content.BroadcastReceiver?, arg3: android.os.Handler?, arg4: Int, arg5: String?, arg6: android.os.Bundle?): Unit = unsupported()
+    override fun sendOrderedBroadcastAsUser(arg0: android.content.Intent, arg1: android.os.UserHandle, arg2: String?, arg3: android.content.BroadcastReceiver, arg4: android.os.Handler?, arg5: Int, arg6: String?, arg7: android.os.Bundle?): Unit = unsupported()
+    override fun sendStickyBroadcast(arg0: android.content.Intent): Unit = unsupported()
+    override fun sendStickyBroadcastAsUser(arg0: android.content.Intent, arg1: android.os.UserHandle): Unit = unsupported()
+    override fun sendStickyOrderedBroadcast(arg0: android.content.Intent, arg1: android.content.BroadcastReceiver, arg2: android.os.Handler?, arg3: Int, arg4: String?, arg5: android.os.Bundle?): Unit = unsupported()
+    override fun sendStickyOrderedBroadcastAsUser(arg0: android.content.Intent, arg1: android.os.UserHandle, arg2: android.content.BroadcastReceiver, arg3: android.os.Handler?, arg4: Int, arg5: String?, arg6: android.os.Bundle?): Unit = unsupported()
+    override fun setTheme(arg0: Int): Unit = unsupported()
+    override fun setWallpaper(arg0: android.graphics.Bitmap): Unit = unsupported()
+    override fun setWallpaper(arg0: java.io.InputStream): Unit = unsupported()
+    override fun startActivities(arg0: Array<android.content.Intent>): Unit = unsupported()
+    override fun startActivities(arg0: Array<android.content.Intent>, arg1: android.os.Bundle): Unit = unsupported()
+    override fun startActivity(arg0: android.content.Intent): Unit = unsupported()
+    override fun startActivity(arg0: android.content.Intent, arg1: android.os.Bundle?): Unit = unsupported()
+    override fun startForegroundService(arg0: android.content.Intent): android.content.ComponentName = unsupported()
+    override fun startInstrumentation(arg0: android.content.ComponentName, arg1: String?, arg2: android.os.Bundle?): Boolean = unsupported()
+    override fun startIntentSender(arg0: android.content.IntentSender, arg1: android.content.Intent?, arg2: Int, arg3: Int, arg4: Int): Unit = unsupported()
+    override fun startIntentSender(arg0: android.content.IntentSender, arg1: android.content.Intent?, arg2: Int, arg3: Int, arg4: Int, arg5: android.os.Bundle?): Unit = unsupported()
+    override fun startService(arg0: android.content.Intent): android.content.ComponentName = unsupported()
+    override fun stopService(arg0: android.content.Intent): Boolean = unsupported()
+    override fun unbindService(arg0: android.content.ServiceConnection): Unit = unsupported()
+    override fun unregisterReceiver(arg0: android.content.BroadcastReceiver): Unit = unsupported()
+
+    private fun unsupported(): Nothing =
+        throw UnsupportedOperationException("PathContext")
+}

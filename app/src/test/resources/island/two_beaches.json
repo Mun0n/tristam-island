@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 2,
+  "id": "beach_fragment",
+  "title": "Playa",
+  "startLocationId": "immaculate_beach",
+  "locations": [
+    {
+      "id": "immaculate_beach",
+      "name": "Playa inmaculada",
+      "description": "La playa se abre al sur de la isla. El bosque queda al oeste.",
+      "actId": "act_1"
+    },
+    {
+      "id": "beach_by_forest",
+      "name": "Playa junto al bosque",
+      "description": "La arena termina en un claro que entra en el bosque.",
+      "actId": "act_1"
+    }
+  ],
+  "items": [
+    { "id": "flower", "name": "flor", "description": "Una flor brillante." }
+  ],
+  "journal": [
+    {
+      "id": "found_flower",
+      "text": "Has cogido una flor brillante en la playa junto al bosque."
+    }
+  ],
+  "actions": [
+    {
+      "id": "go_west",
+      "label": "Ir al oeste, hacia el bosque",
+      "locationId": "immaculate_beach",
+      "response": "Caminas por la arena hasta la playa que bordea el bosque.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "beach_by_forest" }]
+    },
+    {
+      "id": "go_east",
+      "label": "Volver al este",
+      "locationId": "beach_by_forest",
+      "response": "Regresas a la playa inmaculada.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "immaculate_beach" }]
+    },
+    {
+      "id": "take_flower",
+      "label": "Coger una flor",
+      "locationId": "beach_by_forest",
+      "response": "Coges una flor especialmente brillante.",
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "flower" },
+        { "type": "ADD_JOURNAL", "entryId": "found_flower" }
+      ]
+    }
+  ]
+}

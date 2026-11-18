@@ -1,0 +1,20 @@
+---
+description: Points every session at the Tristam Island workflow
+alwaysApply: true
+---
+
+# Workflow
+
+Follow [AGENTS.md](../../AGENTS.md). Do not copy it into this rule.
+
+Product scope, architecture, and game numbers live in `docs/`. Do not repeat them here.
+
+For non-trivial work, follow the quality gate in AGENTS.md: implement, delegate to android-qa when UI or gameplay presentation changed, then to code-reviewer, then to debugger when a defect is confirmed. The author of a change does not close it.
+
+Ask before changing architecture, gameplay rules, dependencies, credentials, or destructive git operations.
+
+Do not start the next roadmap milestone without approval.
+
+Git: a feature or a fix starts on its own branch from `main` and merges back after the quality gate. The names and the exceptions are in [docs/DEVELOPMENT_WORKFLOW.md](../../docs/DEVELOPMENT_WORKFLOW.md).
+
+Game rules stay in `domain` and must not import Android or Compose.

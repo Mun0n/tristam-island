@@ -1,0 +1,4735 @@
+{
+  "schemaVersion": 2,
+  "id": "tristam_coast",
+  "title": "Tristam Island",
+  "startLocationId": "immaculate_beach",
+  "acts": [
+    { "id": "act_1", "title": "Costa baja", "musicRegion": "lower_island" },
+    { "id": "act_2", "title": "La meseta", "musicRegion": "plateau" },
+    { "id": "act_3", "title": "La mansión", "musicRegion": "mansion" },
+    { "id": "act_4", "title": "El laboratorio", "musicRegion": "laboratory" }
+  ],
+  "prologue": [
+    "Levantas la vista hacia la isla y suspiras. Iba a ser un viaje como tantos otros: llevar medicinas y recambios en tu avioneta hasta una isla remota del Atlántico sur, y estar de vuelta antes del anochecer.",
+    "Una tormenta como no habías visto nunca os sacudió de improviso. Perdías altura tan deprisa que no te quedó otra que saltar en paracaídas y dejar la avioneta en el mar. Esta roca te ha salvado. No puedes quedarte en ella para siempre."
+  ],
+  "initialItemIds": ["matchbook"],
+  "items": [
+    {
+      "id": "matchbook",
+      "name": "cerillas",
+      "description": "Una cajetilla con unas pocas cerillas. Están un poco húmedas. Tendrán que servir."
+    },
+    {
+      "id": "flower",
+      "name": "flor",
+      "description": "Una flor pequeña y muy brillante, entre el naranja oscuro y el amarillo."
+    },
+    {
+      "id": "worm",
+      "name": "gusano",
+      "description": "Un gusano grueso. Lo sujetas con dos dedos, el brazo bien lejos del cuerpo."
+    },
+    {
+      "id": "fishing_rod",
+      "name": "caña",
+      "description": "Una caña de pesca de algo más de un metro. El carrete gira, y el sedal y el anzuelo ya van montados."
+    },
+    {
+      "id": "fishing_net",
+      "name": "red",
+      "description": "Una red larga, con flotadores a un lado y plomos al otro. Sola no sirve para pescar."
+    },
+    {
+      "id": "fishing_knife",
+      "name": "cuchillo",
+      "description": "Un cuchillo de destripar. La hoja es curva y el mango, de madera, es ancho."
+    },
+    {
+      "id": "fish",
+      "name": "pez",
+      "description": "Un pez gris, recién pescado. Daría para una comida."
+    },
+    {
+      "id": "flute",
+      "name": "flauta",
+      "description": "El palo que dejó el albatros. Es hueco y tiene unos agujeros. Parece una flauta pequeña."
+    },
+    {
+      "id": "firewood",
+      "name": "leña",
+      "description": "Un haz de palos recogidos en el bosque. Casi todos están húmedos."
+    },
+    {
+      "id": "torch",
+      "name": "linterna",
+      "description": "Una linterna vieja, con el cuerpo cilíndrico. La pila va dentro."
+    },
+    {
+      "id": "pub_key",
+      "name": "llave del pub",
+      "description": "Una llave de repuesto. Estaba en la caja fuerte de la casa del tabernero."
+    },
+    {
+      "id": "large_rock",
+      "name": "piedra grande",
+      "description": "Una piedra grande del círculo del mirador. Pesa, y se puede lanzar."
+    },
+    {
+      "id": "binoculars",
+      "name": "prismáticos",
+      "description": "Unos prismáticos en buen estado."
+    },
+    {
+      "id": "lighter",
+      "name": "mechero",
+      "description": "Un mechero pequeño. La rueda aún enciende."
+    },
+    {
+      "id": "chewing_gum",
+      "name": "chicle",
+      "description": "Un paquete de chicle de menta. No estará fresco, pero se puede mascar."
+    },
+    {
+      "id": "sixpence",
+      "name": "moneda de seis peniques",
+      "description": "Una moneda oxidada de seis peniques. En la gramola pondría una canción."
+    },
+    {
+      "id": "ladder_rungs",
+      "name": "peldaños",
+      "description": "Tres cilindros de madera, iguales de largo. Encajan en una escalera a la que le faltan peldaños."
+    },
+    {
+      "id": "wood_saw",
+      "name": "sierra",
+      "description": "Una sierra de mano. Sirve para cortar madera."
+    },
+    {
+      "id": "screwdriver",
+      "name": "destornillador",
+      "description": "Un destornillador plano, algo oxidado. La punta es pequeña."
+    },
+    {
+      "id": "pot",
+      "name": "olla",
+      "description": "Una olla de metal, honda y resistente. Estaba bajo la encimera de la cocina del pub."
+    },
+    {
+      "id": "cooking_oil",
+      "name": "bloque de aceite",
+      "description": "Aceite de freír, solidificado. Es un bloque grasiento, de unos treinta centímetros de lado."
+    },
+    {
+      "id": "cricket_ball",
+      "name": "bola de críquet",
+      "description": "Una bola de críquet vieja. Un lado está más pulido que el otro."
+    },
+    {
+      "id": "bike_pump",
+      "name": "bomba de bicicleta",
+      "description": "Una bomba de metal, oxidada. En la isla no has visto ninguna bicicleta."
+    },
+    {
+      "id": "pipe_screw",
+      "name": "tornillo grande",
+      "description": "Un tornillo grande. Sujetaba un tramo del tubo en forma de U."
+    },
+    {
+      "id": "meeting_chair",
+      "name": "silla robusta",
+      "description": "Una silla de la sala de reuniones. Es la más firme de las que había."
+    },
+    {
+      "id": "chemistry_book",
+      "name": "libro enorme",
+      "description": "Organic Chemistry 1, de Louis y Mary Fieser. Varios kilos, y un par de pulgadas de grueso."
+    },
+    {
+      "id": "physics_book",
+      "name": "libro grueso",
+      "description": "Theoretical Nuclear Physics, de Blatt y Weisskopf. Grueso, pero menos que el de química."
+    },
+    {
+      "id": "filing_box",
+      "name": "caja de archivos",
+      "description": "Una caja de cartón, llena hasta arriba. Veintiséis separadores, uno por letra."
+    },
+    {
+      "id": "locker_cable",
+      "name": "cable",
+      "description": "Un cable de la taquilla del de comunicaciones. Esperas que sea el que falta."
+    },
+    {
+      "id": "master_key",
+      "name": "llavero del mayor",
+      "description": "Decenas de llaves, sin etiquetas. Debían de abrir casi todo el complejo."
+    }
+  ],
+  "flags": [
+    { "id": "stones_known", "default": false },
+    { "id": "compartment_open", "default": false },
+    { "id": "rod_taken", "default": false },
+    { "id": "net_taken", "default": false },
+    { "id": "knife_taken", "default": false },
+    { "id": "seaweed_eaten", "default": false },
+    { "id": "hook_worm", "default": false },
+    { "id": "hook_flower", "default": false },
+    { "id": "ever_hooked_worm", "default": false },
+    { "id": "ever_hooked_flower", "default": false },
+    { "id": "albatross_near", "default": false },
+    { "id": "albatross_paid", "default": false },
+    { "id": "tower_seen", "default": false },
+    { "id": "wood_cut", "default": false },
+    { "id": "ate_fish", "default": false },
+    { "id": "slept", "default": false },
+    { "id": "reached_plateau", "default": false },
+    { "id": "stairs_cleared", "default": false },
+    { "id": "fountain_drank", "default": false },
+    { "id": "bush_glanced", "default": false },
+    { "id": "hole_found", "default": false },
+    { "id": "crawled_hole", "default": false },
+    { "id": "climbed_tree", "default": false },
+    { "id": "torch_found", "default": false },
+    { "id": "torch_on", "default": false },
+    { "id": "safe_open", "default": false },
+    { "id": "pub_unlocked", "default": false },
+    { "id": "island_named", "default": false },
+    { "id": "notice_read", "default": false },
+    { "id": "rock_taken", "default": false },
+    { "id": "rock_in_shop", "default": false },
+    { "id": "rock_in_woodshop", "default": false },
+    { "id": "shop_smashed", "default": false },
+    { "id": "woodshop_smashed", "default": false },
+    { "id": "binoculars_taken", "default": false },
+    { "id": "lighter_taken", "default": false },
+    { "id": "gum_taken", "default": false },
+    { "id": "sixpence_taken", "default": false },
+    { "id": "rungs_taken", "default": false },
+    { "id": "saw_taken", "default": false },
+    { "id": "ladder_fixed", "default": false },
+    { "id": "screwdriver_taken", "default": false },
+    { "id": "tristam_seen", "default": false },
+    { "id": "crude_door_open", "default": false },
+    { "id": "code_read", "default": false },
+    { "id": "pot_taken", "default": false },
+    { "id": "oil_cut", "default": false },
+    { "id": "oil_in_pot", "default": false },
+    { "id": "oil_melted", "default": false },
+    { "id": "scenic_fire", "default": false },
+    { "id": "tank_full", "default": false },
+    { "id": "generators_on", "default": false },
+    { "id": "mansion_entered", "default": false },
+    { "id": "placards_read", "default": false },
+    { "id": "statue_turned", "default": false },
+    { "id": "cannon_seen", "default": false },
+    { "id": "yellow_open", "default": false },
+    { "id": "white_open", "default": false },
+    { "id": "quarters_unlocked", "default": false },
+    { "id": "ball_taken", "default": false },
+    { "id": "pump_taken", "default": false },
+    { "id": "pump_plugged", "default": false },
+    { "id": "pump_scored", "default": false },
+    { "id": "pump_pumped", "default": false },
+    { "id": "ball_in_cannon", "default": false },
+    { "id": "ball_on_lobby", "default": false },
+    { "id": "pipe_broken", "default": false },
+    { "id": "pipe_fixed", "default": false },
+    { "id": "ball_on_mezzanine", "default": false },
+    { "id": "screw_ready", "default": false },
+    { "id": "screw_taken", "default": false },
+    { "id": "rat_removed", "default": false },
+    { "id": "ball_in_bucket", "default": false },
+    { "id": "babel_solved", "default": false },
+    { "id": "chad_seen", "default": false },
+    { "id": "elevator_down", "default": false },
+    { "id": "poster_seen", "default": false },
+    { "id": "letter_read", "default": false },
+    { "id": "hangar_seen", "default": false },
+    { "id": "locker_unlocked", "default": false },
+    { "id": "locker_open", "default": false },
+    { "id": "cable_taken", "default": false },
+    { "id": "chair_taken", "default": false },
+    { "id": "chemistry_taken", "default": false },
+    { "id": "physics_taken", "default": false },
+    { "id": "filing_taken", "default": false },
+    { "id": "chemistry_on_chair", "default": false },
+    { "id": "physics_on_chair", "default": false },
+    { "id": "filing_on_chair", "default": false },
+    { "id": "on_chair", "default": false },
+    { "id": "lamp_seen", "default": false },
+    { "id": "tile_pushed", "default": false },
+    { "id": "office_entered", "default": false },
+    { "id": "drawer_open", "default": false },
+    { "id": "key_taken", "default": false },
+    { "id": "major_open", "default": false },
+    { "id": "comms_open", "default": false },
+    { "id": "panel_open", "default": false },
+    { "id": "cable_fixed", "default": false },
+    { "id": "headphones_on", "default": false },
+    { "id": "freq_reached", "default": false },
+    { "id": "rescued", "default": false }
+  ],
+  "journal": [
+    {
+      "id": "found_flower",
+      "place": "Linde del bosque",
+      "text": "Cogiste una flor brillante. Huele poco, pero el color no se olvida."
+    },
+    {
+      "id": "white_stones",
+      "place": "Bosque interior",
+      "text": "Unas piedras blancas y afiladas suben por la ladera, demasiado regulares para ser casuales."
+    },
+    {
+      "id": "north_boat",
+      "place": "Acantilados del norte",
+      "text": "Un bote de pesca está amarrado a un muelle, bajo el acantilado de tiza. El casco está rajado."
+    },
+    {
+      "id": "boat_compartment",
+      "place": "Acantilados del norte",
+      "text": "El compartimento de popa guarda una caña ya montada, una red y un cuchillo de destripar."
+    },
+    {
+      "id": "ate_seaweed",
+      "place": "Acantilados del norte",
+      "text": "Comiste alga secada al sol del muelle. Sabe a sal. No quita el hambre de verdad."
+    },
+    {
+      "id": "first_fish",
+      "place": "En el océano",
+      "text": "Pescaste el primer pez. Un albatros enorme se fijó en él."
+    },
+    {
+      "id": "albatross_flute",
+      "place": "Costa baja",
+      "text": "Le diste el pez al albatros. Se lo comió y, al volver, te dejó una flauta pequeña."
+    },
+    {
+      "id": "watchtower",
+      "place": "Agua hasta la rodilla",
+      "text": "Desde el banco de arena, entre los árboles de los acantilados del suroeste, se ve una torre de vigilancia."
+    },
+    {
+      "id": "cooked_meal",
+      "place": "Costa baja",
+      "text": "Cocinaste el pez en una hoguera. Por fin has comido de verdad."
+    },
+    {
+      "id": "slept_out",
+      "place": "Costa baja",
+      "text": "Dormiste en la hamaca hecha con la red. Amaneciste descansado."
+    },
+    {
+      "id": "plateau_seen",
+      "place": "La meseta",
+      "text": "Arriba hay un poblado vacío. La isla estuvo habitada."
+    },
+    {
+      "id": "fresh_water",
+      "place": "Centro del poblado",
+      "text": "La fuente del poblado sigue manando agua dulce."
+    },
+    {
+      "id": "found_torch",
+      "place": "Almacén",
+      "text": "En una estantería del almacén había una linterna."
+    },
+    {
+      "id": "inside_fence",
+      "place": "La verja",
+      "text": "Has pasado al otro lado de la verja. La casa blanca sigue cerrada."
+    },
+    {
+      "id": "pub_spare_key",
+      "place": "Casa detrás del pub",
+      "text": "La caja fuerte del tabernero estaba abierta. Dentro había una llave del pub."
+    },
+    {
+      "id": "kingsley_island",
+      "place": "El Barco y el Ancla",
+      "text": "El mapa del pub llama Kingsley a esta isla. Tristam es la isla del suroeste."
+    },
+    {
+      "id": "garden_shifts",
+      "place": "El Barco y el Ancla",
+      "text": "El tablón del huerto tiene firmas hasta el 18 de febrero. Ese día firma una persona. Después, nadie."
+    },
+    {
+      "id": "shop_broken",
+      "place": "Tienda de Harry",
+      "text": "Rompiste el escaparate de la tienda con una piedra. Dentro había prismáticos y un mechero."
+    },
+    {
+      "id": "rungs_found",
+      "place": "Taller de madera",
+      "text": "En el taller había tres cilindros de madera. Son los peldaños que le faltan a la torre."
+    },
+    {
+      "id": "tristam_charred",
+      "place": "Cima de la torre",
+      "text": "Con los prismáticos, Tristam se ve quemada: troncos negros y vegetación que no pasa de la rodilla."
+    },
+    {
+      "id": "house_code",
+      "place": "Casas del centro",
+      "text": "En la última página de un libro de la casa tosca hay cuatro cifras: 5, 2, 1 y 8."
+    },
+    {
+      "id": "generators_running",
+      "place": "Generadores",
+      "text": "El depósito tiene el aceite de la cocina, ya derretido. Los generadores arrancan y la isla vuelve a tener luz."
+    },
+    {
+      "id": "mansion_purpose",
+      "place": "Mansión blanca",
+      "text": "Dentro de la verja vivía quien conocía el código. El pueblo pescaba y mantenía la isla, y no podía entrar. Lo que pasa en esta casa era el motivo de ocupar la isla."
+    },
+    {
+      "id": "westwood_contraption",
+      "place": "Recibidor",
+      "text": "El mayor Westwood dejó el mecanismo para abrir la puerta del laboratorio. Sirve para la moral, y podría cambiarlo por otro teclado."
+    },
+    {
+      "id": "laboratory_door",
+      "place": "Antesala",
+      "text": "El peso ya no bloquea la puerta del norte. Detrás hay una antesala, y al sur un ascensor."
+    },
+    {
+      "id": "lab_descent",
+      "place": "Ascensor",
+      "text": "El ascensor baja mucho. Abajo hay un complejo. Las piezas del pueblo, la verja y la mansión encajan, aunque el nombre del secreto todavía no."
+    },
+    {
+      "id": "nuclear_poster_near",
+      "place": "Vestíbulo del laboratorio",
+      "text": "El cartel de la explosión atómica lo dice: en esta isla se trabajaba en pruebas nucleares. Si detonaron una bomba, fue en la isla de al lado."
+    },
+    {
+      "id": "nuclear_poster",
+      "place": "Vestíbulo del laboratorio",
+      "text": "El cartel de la explosión atómica lo dice: en esta isla se trabajaba en pruebas nucleares. Tristam fue el lugar de la detonación."
+    },
+    {
+      "id": "grant_warning",
+      "place": "Sala de reuniones",
+      "text": "El doctor Grant pidió al mayor Westwood que no detonaran, el 15 de febrero de 1962, una bomba cientos de kilotones por encima de lo seguro. Temía la lluvia radiactiva. El pueblo parece abandonado ese febrero."
+    },
+    {
+      "id": "locker_clicks",
+      "place": "Taquillas",
+      "text": "El candado de la taquilla cede si se gira despacio y se escuchan los clics. Dentro había cables del de comunicaciones."
+    },
+    {
+      "id": "ceiling_office",
+      "place": "Despacho del mayor",
+      "text": "Una loseta del falso techo, junto al dibujo del señor Chad, deja pasar al despacho de Westwood."
+    },
+    {
+      "id": "master_keys",
+      "place": "Despacho del mayor",
+      "text": "El cajón del mayor guarda un llavero con decenas de llaves, sin etiquetas."
+    },
+    {
+      "id": "radio_cable",
+      "place": "Sala de comunicaciones",
+      "text": "El transmisor tenía un cable derretido. El de la taquilla ocupa su sitio."
+    },
+    {
+      "id": "radio_frequency",
+      "place": "Sala de comunicaciones",
+      "text": "El mando oxidado cae en 12.4035 Mc. Es la frecuencia de los guardacostas."
+    },
+    {
+      "id": "rescue",
+      "place": "Sala de comunicaciones",
+      "text": "Los guardacostas de Namibia responden. El coronel Bradley viene a buscarte en helicóptero."
+    }
+  ],
+  "locations": [
+    {
+      "id": "immaculate_beach",
+      "name": "Playa inmaculada",
+      "actId": "act_1",
+      "dryPerTurn": 1,
+      "description": "Estás en el lado sur de la isla. El Atlántico te hace sentir diminuto. Al norte se alza una colina cubierta de bosque, demasiado espesa para treparla desde aquí. La playa sigue hacia el noreste, donde se ve un gran peñasco, y hacia el oeste.",
+      "seaInland": 0,
+      "holdSeaHeading": "clockwise",
+      "coast": [
+        { "direction": 1, "locationId": "end_of_beach" },
+        { "direction": 6, "locationId": "beach_by_forest" }
+      ]
+    },
+    {
+      "id": "end_of_beach",
+      "name": "Extremo de la playa",
+      "actId": "act_1",
+      "dryPerTurn": 1,
+      "description": "La playa del sur se acaba aquí. Detrás del gran peñasco, la costa se vuelve roca y forma una cala al norte. El resto de la arena se extiende hacia el suroeste.",
+      "seaInland": 7,
+      "coast": [
+        { "direction": 0, "locationId": "cove" },
+        { "direction": 5, "locationId": "immaculate_beach" }
+      ]
+    },
+    {
+      "id": "cove",
+      "name": "Cala",
+      "actId": "act_1",
+      "dryPerTurn": 1,
+      "description": "Una cala pequeña, resguardada. Detrás de ti la isla sube en una colina de árboles hasta lo que parece una meseta. No es un buen sitio para empezar a escalar. La arena sigue hacia el sur. Por el noroeste, el agua poco profunda sigue la costa.",
+      "seaInland": 6,
+      "coast": [
+        { "direction": 4, "locationId": "end_of_beach" },
+        { "direction": 7, "locationId": "northeastern_tip" }
+      ]
+    },
+    {
+      "id": "beach_by_forest",
+      "name": "Playa junto al bosque",
+      "actId": "act_1",
+      "dryPerTurn": 1,
+      "description": "La playa baja en pendiente y las olas rompen con ritmo. Una línea de arbustos marca la marea alta. Al norte hay un claro que entra en el bosque. Al este sigue la arena. Al oeste, bajo acantilados altos, la orilla se vuelve más estrecha y más rocosa.",
+      "seaInland": 0,
+      "holdSeaHeading": "counterclockwise",
+      "coast": [
+        { "direction": 2, "locationId": "immaculate_beach" },
+        { "direction": 6, "locationId": "southwestern_cliffs" }
+      ]
+    },
+    {
+      "id": "edge_of_woods",
+      "name": "Linde del bosque",
+      "actId": "act_1",
+      "description": "El bosque empieza en este claro. Los árboles son densos y están cubiertos de flores de un color muy vivo. El sol afloja un poco. Bajo una roca grande y cubierta de musgo algo se mueve. Al norte el bosque se cierra. Al sur se vuelve a la playa."
+    },
+    {
+      "id": "deep_woods",
+      "name": "Bosque profundo",
+      "actId": "act_1",
+      "description": "No puedes avanzar mucho más. Delante, la ladera se empina, cubierta de hierba y barro, con unas piedras blancas de filo afilado clavadas a intervalos casi regulares. El bosque es espeso. Al sur está el claro."
+    },
+    {
+      "id": "southwestern_cliffs",
+      "name": "Acantilados del suroeste",
+      "actId": "act_1",
+      "dryPerTurn": 1,
+      "description": "Estás al pie de unos acantilados altos, casi verticales, sobre un trecho corto de arena y roca al que apenas se le puede llamar playa. Al este hay arena. Al noroeste se abre un estrecho pequeño.",
+      "seaInland": 1,
+      "sandbank": true,
+      "coast": [
+        { "direction": 2, "locationId": "beach_by_forest" },
+        { "direction": 7, "locationId": "narrow_strait" }
+      ]
+    },
+    {
+      "id": "narrow_strait",
+      "name": "Estrecho",
+      "actId": "act_1",
+      "dryPerTurn": 1,
+      "description": "Los acantilados forman aquí un círculo casi cerrado, con una poza que debe llenarse con cada marea. Un canal poco profundo parte la playa y se va al mar. Más adentro del agua hay movimiento. Los acantilados siguen al norte y al sureste.",
+      "seaInland": 2,
+      "coast": [
+        { "direction": 0, "locationId": "northwestern_cliffs" },
+        { "direction": 3, "locationId": "southwestern_cliffs" }
+      ]
+    },
+    {
+      "id": "northwestern_cliffs",
+      "name": "Acantilados del noroeste",
+      "actId": "act_1",
+      "dryPerTurn": 2,
+      "description": "Una playa pequeña corre junto a los acantilados del noroeste. Al sur está el estrecho. Al noreste la orilla sigue y la roca se vuelve blanca.",
+      "seaInland": 3,
+      "coast": [
+        { "direction": 4, "locationId": "narrow_strait" },
+        { "direction": 1, "locationId": "northern_cliffs" }
+      ]
+    },
+    {
+      "id": "northern_cliffs",
+      "name": "Acantilados del norte",
+      "actId": "act_1",
+      "dryPerTurn": 2,
+      "description": "Un acantilado alto de tiza recorre el norte de la isla. Abajo hay una playa pequeña, con rocas y guijarros. Un bote de pesca está amarrado a un muelle de madera. Contra el acantilado hay una plataforma con una cuerda y unas poleas. La playa sigue al suroeste y al este.",
+      "seaInland": 4,
+      "coast": [
+        { "direction": 2, "locationId": "northeastern_tip" },
+        { "direction": 5, "locationId": "northwestern_cliffs" }
+      ]
+    },
+    {
+      "id": "northeastern_tip",
+      "name": "Punta noreste",
+      "actId": "act_1",
+      "dryPerTurn": 2,
+      "description": "La playa se acaba por este lado. Al suroeste el terreno se empina y no hay paso. Hacia el sureste, la costa forma una cala. Al oeste se vuelve hacia el muelle.",
+      "seaInland": 5,
+      "coast": [
+        { "direction": 6, "locationId": "northern_cliffs" },
+        { "direction": 3, "locationId": "cove" }
+      ]
+    },
+    {
+      "id": "outside_storehouse",
+      "name": "Fuera del almacén",
+      "actId": "act_2",
+      "description": "Estás al borde del acantilado. La plataforma cuelga de una polea sobre la playa del norte. Al oeste hay un almacén sin ventanas, más grande que las otras casas, y la puerta está abierta. Al sur, un huerto abandonado. Al sureste, el pub. Al este, una casa junto al acantilado."
+    },
+    {
+      "id": "top_of_stairs",
+      "name": "Alto de la escalera",
+      "actId": "act_2",
+      "description": "Estás en el borde sur de la meseta. Al norte hay una hilera de casas. La escalera baja hasta el bosque de la playa."
+    },
+    {
+      "id": "community_garden",
+      "name": "Huerto abandonado",
+      "actId": "act_2",
+      "description": "Hace tiempo esto fue un huerto. Una docena de zanjas poco profundas están cubiertas de hierba alta. Al norte se ve el almacén. Al este está el pub. Al sur, una casa pequeña."
+    },
+    {
+      "id": "outside_pub",
+      "name": "El Barco y el Ancla",
+      "actId": "act_2",
+      "description": "El letrero dice «El Barco y el Ancla». El tejado es de chapa verdosa, como el del resto del poblado, y el edificio aguanta. Al oeste hay un huerto. Los caminos siguen al noroeste, al suroeste y al este, hacia el centro. La puerta del pub está cerrada."
+    },
+    {
+      "id": "pub_landlord_house",
+      "name": "Casa detrás del pub",
+      "actId": "act_2",
+      "description": "Es la última casa de este lado, pequeña y del mismo estilo que las demás. Al suroeste se alza una torre de acero. Al noreste está el pub. Al norte, el huerto. Al este, más casas. La puerta no tiene cerrojo."
+    },
+    {
+      "id": "base_of_tower",
+      "name": "Pie de la torre",
+      "actId": "act_2",
+      "description": "Una torre de acero se levanta contra el cielo. Arriba hay un mástil de radio, aunque no se ve dónde se maneja. A la escalera le faltan peldaños, los de abajo incluidos. Al noreste se vuelve a la casa pequeña."
+    },
+    {
+      "id": "central_plaza",
+      "name": "Centro del poblado",
+      "actId": "act_2",
+      "description": "El centro del poblado. Una bomba pequeña vierte agua en una pila de metal. Al norte hay una tienda. Al sur, una hilera de casas. Al este, una verja. Al oeste, el pub. Al noreste sale el camino de los generadores."
+    },
+    {
+      "id": "houses",
+      "name": "Casas del centro",
+      "actId": "act_2",
+      "description": "Varias casas forman un camino entre la plaza, al norte, y el borde de la meseta, al sur. Una puerta es más tosca que las otras, como hecha en la isla. Todas están cerradas. Al oeste se cruza hacia otra casa. Al este y al noreste se llega a la verja."
+    },
+    {
+      "id": "cliff_house",
+      "name": "Casa del acantilado",
+      "actId": "act_2",
+      "description": "Un camino ancho sigue el acantilado norte. Al oeste está el almacén. Al este, una tienda pequeña. Al sur, detrás de la casa, el pub. La puerta de esta casa no parece cerrada."
+    },
+    {
+      "id": "inside_cliff_house",
+      "name": "Dentro de la casa",
+      "actId": "act_2",
+      "description": "La casa es mínima: un fregadero, una despensa vacía y unas sillas hechas a mano. El interruptor de la luz no responde. La única salida es la puerta."
+    },
+    {
+      "id": "shop",
+      "name": "Tienda de Harry",
+      "actId": "act_2",
+      "description": "Una tienda pequeña. El escaparate lleva pintado «Los placeres terrenales de Harry». Dentro se ven mercancías que debieron de llegar de tierra firme. La puerta está cerrada. Al norte el acantilado se abre en un mirador. Al sur está la plaza. Al este, un taller de madera. Al oeste, la casa del acantilado."
+    },
+    {
+      "id": "woodshop",
+      "name": "Taller de madera",
+      "actId": "act_2",
+      "description": "Por el ventanal se ve un taller, con una mesa robusta en el centro. Alguien de aquí trabajaba la madera de toda la isla. La puerta está cerrada. Al oeste está la otra tienda. Al sur, junto a la verja, los generadores."
+    },
+    {
+      "id": "scenic_view",
+      "name": "Mirador",
+      "actId": "act_2",
+      "description": "Un claro de hierba en lo alto del acantilado. El océano se abre entero. Unas piedras forman un círculo y, en el centro, quedan restos de una hoguera. Al sur se vuelve a la tienda."
+    },
+    {
+      "id": "generators",
+      "name": "Generadores",
+      "actId": "act_2",
+      "description": "Tres máquinas verdes, altas, junto a la verja de la casa blanca. Parecen la luz de la isla, y están apagadas. Un depósito central las une. Al norte está el taller. Al sur, la puerta de la verja. Al suroeste, el centro del poblado. Unos arbustos espesos crecen contra la verja."
+    },
+    {
+      "id": "fence_gate",
+      "name": "La verja",
+      "actId": "act_2",
+      "description": "Un campo se abre detrás de una verja alta, rematada con alambre de espino. Al fondo hay una mansión blanca. El cartel de la garita dice «Solo personal autorizado». La puerta está cerrada. La verja sigue al norte y al sureste. Al oeste se vuelve al centro. Al suroeste, las casas."
+    },
+    {
+      "id": "around_fence",
+      "name": "Borde de la meseta",
+      "actId": "act_2",
+      "description": "Estás al sur de la mansión blanca, al otro lado de la verja. Los árboles del borde son altos, y una rama pasa por encima del alambre. Al noroeste se sigue la verja. Al oeste, las casas."
+    },
+    {
+      "id": "field",
+      "name": "El campo",
+      "actId": "act_2",
+      "description": "Dentro de la verja, la hierba ha crecido alta. Por el centro se adivina el camino que iba de la garita, al oeste, al porche de la casa blanca, al este. La puerta de la verja sigue cerrada por este lado."
+    },
+    {
+      "id": "white_house_porch",
+      "name": "Porche de la casa blanca",
+      "actId": "act_2",
+      "description": "Dos escalones suben a un porche pequeño. La puerta es doble, de metal, y no tiene cerradura: a la derecha hay un teclado oxidado. Sin luz, el teclado no responde. Al oeste se vuelve al campo."
+    },
+    {
+      "id": "white_house_lobby",
+      "name": "Recibidor",
+      "actId": "act_3",
+      "description": "El recibidor es grande y está desordenado. Las ventanas están tapiadas, y unas pocas luces bastan para ver. En las paredes hay avisos. Del techo cuelga un mecanismo de cuerdas, cubos y un peso. En el centro hay una estatua, delante de una escalera de madera. Al este, un pasillo ancho. Al sur, la biblioteca. Al norte, una puerta alta, cerrada. Junto a la escalera hay un tubo inclinado."
+    },
+    {
+      "id": "mansion_library",
+      "name": "Biblioteca",
+      "actId": "act_3",
+      "description": "Huele a cerrado, no a papel. Media docena de estantes están llenos. El más cercano dice CIENCIA FICCIÓN, y los lomos están gastados. El recibidor queda al norte."
+    },
+    {
+      "id": "cafeteria",
+      "name": "Comedor",
+      "actId": "act_3",
+      "description": "Un comedor pequeño, con cuatro mesas largas y bancos de madera. No cabrían más de veinte personas. Está desierto. La puerta de la cocina está cerrada. El recibidor queda al oeste."
+    },
+    {
+      "id": "mezzanine",
+      "name": "Entreplanta",
+      "actId": "act_3",
+      "description": "La entreplanta es ancha, con una barandilla de madera. Desde aquí se ve el recibidor, la estatua y la puerta del norte. Un tubo en forma de U pasa por encima. Al este sigue un pasillo. Bajar vuelve al recibidor."
+    },
+    {
+      "id": "quarters",
+      "name": "Dormitorios",
+      "actId": "act_3",
+      "description": "Un pasillo corto, con una sola bombilla y cuatro puertas. Al fondo, una dice SOLO OFICIALES. Al norte, una puerta amarilla con dos nombres: el doctor Jerome Thorpe y «Doc» Walt Horvak. Al sur, una puerta blanca: Mick Antrim y Marv Siegel. La última dice GUARDIA. La entreplanta queda al oeste."
+    },
+    {
+      "id": "yellow_room",
+      "name": "Habitación amarilla",
+      "actId": "act_3",
+      "description": "La habitación se vació a toda prisa. Las literas están sin hacer. Hay un arcón casi en el centro, y un escritorio con los cajones abiertos y vacíos. Se sale por el sur."
+    },
+    {
+      "id": "white_room",
+      "name": "Habitación blanca",
+      "actId": "act_3",
+      "description": "La habitación está en orden. Las dos literas están hechas. A los pies de la cama hay un arcón. Se sale por el norte."
+    },
+    {
+      "id": "antechamber",
+      "name": "Antesala",
+      "actId": "act_3",
+      "description": "Una sala pequeña, para esperar. La puerta por la que entraste da al recibidor, y encima de ella cuelga el peso que antes la mantenía cerrada. Al fondo está la puerta de un ascensor."
+    },
+    {
+      "id": "inside_elevator",
+      "name": "Ascensor",
+      "actId": "act_3",
+      "description": "La cabina cabe una persona, quizá dos. Solo hay un botón. La puerta da a la antesala."
+    },
+    {
+      "id": "lab_lobby",
+      "name": "Vestíbulo del laboratorio",
+      "actId": "act_4",
+      "description": "Un complejo bajo tierra. Al norte está el ascensor. Un pasillo largo sale hacia el sur, con tubos fluorescentes en un falso techo y puertas que no cierran las salas. Al oeste hay una puerta con la placa SALA DE COMUNICACIONES. Frente al ascensor, un escritorio pequeño. Sobre el escritorio hay una caja de cartón llena de papeles. Encima, un cartel de la explosión de una bomba atómica."
+    },
+    {
+      "id": "lab_hall",
+      "name": "Pasillo del laboratorio",
+      "actId": "act_4",
+      "description": "Un pasillo ancho, bajo un fluorescente blanco. Al norte se vuelve al vestíbulo. El pasillo gira y sigue al este. Al sur hay un laboratorio."
+    },
+    {
+      "id": "lab_bench",
+      "name": "Laboratorio",
+      "actId": "act_4",
+      "description": "Está oscuro. La luz llega del pasillo. Hay un banco de trabajo, un fregadero y matraces vacíos. En una estantería, junto a más matraces, hay un aparato pequeño con un dial. Al norte se vuelve al pasillo. Al este, el laboratorio sigue."
+    },
+    {
+      "id": "lab_think",
+      "name": "Sala de la pizarra",
+      "actId": "act_4",
+      "description": "Unos sillones y un sofá miran a una pizarra llena de símbolos. Junto a ella, una cafetera sobre un archivador vacío. En la estantería quedan dos libros: uno grueso y otro enorme. Al oeste se vuelve al otro laboratorio. Al norte, un pasillo."
+    },
+    {
+      "id": "lab_cross",
+      "name": "Cruce del laboratorio",
+      "actId": "act_4",
+      "description": "El centro del complejo. Al oeste sigue el pasillo. Al este, unas taquillas. Al sur, la sala de la pizarra. Al norte, una sala de reuniones."
+    },
+    {
+      "id": "conference",
+      "name": "Sala de reuniones",
+      "actId": "act_4",
+      "description": "Varias mesas juntas en el centro, y sillas alrededor. En una esquina hay un montón de papeles. Al sur se vuelve al cruce. Al este, un pasillo con un ventanal."
+    },
+    {
+      "id": "hall_window",
+      "name": "Pasillo del ventanal",
+      "actId": "act_4",
+      "description": "Un ventanal casi llega al falso techo. Al otro lado hay algo oscuro. El fluorescente del norte, junto a una puerta al fondo, parpadea. Al sur hay taquillas. Al oeste, la sala de reuniones."
+    },
+    {
+      "id": "storage",
+      "name": "Taquillas",
+      "actId": "act_4",
+      "description": "El pasillo sigue al norte, hacia el ventanal, o al oeste, hacia el laboratorio. Al este, una puerta de escalera, cerrada. Contra la pared sur hay taquillas abiertas, menos una, con un candado de combinación."
+    },
+    {
+      "id": "major_door",
+      "name": "Puerta del mayor",
+      "actId": "act_4",
+      "description": "La placa dice despacho del mayor Westwood. No hay mucho más, y el fluorescente no deja de parpadear. Al sur se vuelve al ventanal."
+    },
+    {
+      "id": "major_office",
+      "name": "Despacho del mayor",
+      "actId": "act_4",
+      "description": "El despacho del mayor Westwood no es grande. Un escritorio mira hacia la puerta, con una papelera al lado, y hay tres sillas. La del mayor es la más cómoda. Al sur se sale."
+    },
+    {
+      "id": "comms_room",
+      "name": "Sala de comunicaciones",
+      "actId": "act_4",
+      "description": "Por fin, la sala de comunicaciones. Un transmisor grande ocupa la mesa, con un micrófono y unos auriculares. El panel de acceso está cerrado. El dial marca 12.4020 Mc. La salida es al este, al vestíbulo."
+    },
+    {
+      "id": "inside_landlord_house",
+      "name": "Casa del tabernero",
+      "actId": "act_2",
+      "description": "Es más una casita que una casa. Los carteles de la pared son de cerveza, Guinness y Watney's, y junto a la puerta cuelgan delantales. Hay una cama, una mesa y cuatro sillas. A los pies de la cama hay una caja fuerte baja, en forma de cubo. La única salida es la puerta."
+    },
+    {
+      "id": "inside_pub",
+      "name": "Dentro del pub",
+      "actId": "act_2",
+      "description": "El pub es grande: una docena de mesas y sillas de sobra. En una mesa queda una pinta vacía. La barra está frente a la puerta y las estanterías, vacías. Detrás se adivina la cocina. En una pared hay un mapa y un tablón. En la otra, una gramola antigua, apagada."
+    },
+    {
+      "id": "pub_kitchen",
+      "name": "Cocina del pub",
+      "actId": "act_2",
+      "description": "La cocina queda detrás del pub. Es pequeña y sirve. La encimera está vacía, con cercos de cacharros calientes. Debajo hay ollas y sartenes de metal. Hay una nevera, una cocina eléctrica y una freidora. El aceite de la freidora se ha vuelto un bloque blanco. La única salida es el pub."
+    },
+    {
+      "id": "inside_shop",
+      "name": "Dentro de la tienda",
+      "actId": "act_2",
+      "description": "Es Los placeres terrenales de Harry. En el mostrador quedan unos prismáticos, un mechero, chicle, un cómic y un par de paquetes de tabaco. El escaparate está roto. Se sale por ahí: la puerta sigue cerrada."
+    },
+    {
+      "id": "inside_woodshop",
+      "name": "Dentro del taller",
+      "actId": "act_2",
+      "description": "Alguien trabajaba aquí la madera de la isla. En el centro hay una mesa redonda, a medio lijar. En el suelo hay una sierra y tres cilindros de madera, todos del mismo largo. El ventanal está roto. La puerta sigue cerrada."
+    },
+    {
+      "id": "top_of_tower",
+      "name": "Cima de la torre",
+      "actId": "act_2",
+      "description": "La plataforma es pequeña, con una baranda baja. Desde aquí se ve el poblado, la casa blanca detrás de la verja y el mar. Al sureste, en el horizonte, hay otra isla, en forma de herradura. A simple vista algo no encaja. La escalera baja al suelo."
+    },
+    {
+      "id": "inside_crude_house",
+      "name": "Casa de la puerta tosca",
+      "actId": "act_2",
+      "description": "Una casa pequeña: una cama, una mesilla, unas sillas y un baño. En la mesilla hay un libro. La puerta que sacaste de los goznes está apoyada fuera."
+    },
+    {
+      "id": "storehouse_front",
+      "name": "Almacén, entrada",
+      "actId": "act_2",
+      "description": "El almacén no tiene ventanas. Con la puerta abierta se ve lo bastante: una estantería de herramientas y otra, en el rincón, de comida de desayuno. Más adentro está oscuro. Al este se sale."
+    },
+    {
+      "id": "ocean",
+      "name": "En el océano",
+      "actId": "act_1",
+      "description": "El agua te llega a la cintura y está helada. El horizonte está vacío y la isla se alza detrás.",
+      "sea": {
+        "kneeDeepName": "Agua hasta la rodilla",
+        "sandbank": "Un banco de arena sumergido te deja caminar mar adentro sin cubrirte del todo. Detrás ves los acantilados del suroeste.",
+        "tower": "Sobre los acantilados, entre los árboles, se distingue un mástil de acero.",
+        "horizon": "Hacia el suroeste, muy bajo en el horizonte, parece haber algo.",
+        "fish": "Un poco más adentro hay movimiento bajo la superficie. Parece un buen sitio para pescar.",
+        "barren": "En el agua turbia no se ve nada.",
+        "follow": "Caminas un trecho en esa dirección, siguiendo la costa.",
+        "tooFar": "Caminas un trecho, pero no quieres alejarte de la orilla.",
+        "tooDeep": "Intentas seguir, pero el fondo cae y nadas de vuelta hasta donde haces pie.",
+        "bankOut": "Avanzas un poco por el banco de arena.",
+        "bankBack": "Retrocedes un poco por el banco de arena.",
+        "ashore": "Sales del agua y vuelves a la orilla.",
+        "fishModulus": 4,
+        "fishRemainder": 2,
+        "horizonDepth": 8,
+        "maxDepth": 9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "id": "beach_west",
+      "label": "Ir al oeste, hacia el bosque",
+      "locationId": "immaculate_beach",
+      "response": "Caminas por la arena hasta donde el bosque se acerca a la orilla.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "beach_by_forest" }]
+    },
+    {
+      "id": "beach_northeast",
+      "label": "Ir al noreste, hacia el peñasco",
+      "locationId": "immaculate_beach",
+      "response": "Sigues la playa hasta que la arena se acaba contra el peñasco.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "end_of_beach" }]
+    },
+    {
+      "id": "beach_north",
+      "label": "Intentar entrar en el bosque por el norte",
+      "locationId": "immaculate_beach",
+      "response": "El bosque es casi impenetrable por este lado. Mejor buscar otro acceso.",
+      "repeatable": true,
+      "effects": []
+    },
+    {
+      "id": "beach_water",
+      "label": "Entrar en el agua, hacia el sur",
+      "locationId": "immaculate_beach",
+      "response": "El agua está helada. Avanzas hasta que te llega a la cintura.",
+      "repeatable": true,
+      "effects": [{ "type": "ENTER_WATER" }]
+    },
+    {
+      "id": "end_southwest",
+      "label": "Volver al suroeste",
+      "locationId": "end_of_beach",
+      "response": "Regresas a la playa abierta.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "immaculate_beach" }]
+    },
+    {
+      "id": "end_north",
+      "label": "Ir al norte, a la cala",
+      "locationId": "end_of_beach",
+      "response": "Rodeas el peñasco y entras en una cala pequeña.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "cove" }]
+    },
+    {
+      "id": "end_boulder",
+      "label": "Examinar el peñasco",
+      "locationId": "end_of_beach",
+      "response": "La marea lo ha dejado liso, pero sigue unido a la isla. Detrás, la costa este es roca quebrada y charcas poco profundas. Trepar por aquí no es lo tuyo.",
+      "repeatable": true,
+      "effects": []
+    },
+    {
+      "id": "cove_south",
+      "label": "Volver al sur",
+      "locationId": "cove",
+      "response": "Sales de la cala y vuelves al extremo de la playa.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "end_of_beach" }]
+    },
+    {
+      "id": "cove_look",
+      "label": "Mirar la colina",
+      "locationId": "cove",
+      "response": "La ladera está cubierta de árboles y se curva hacia una meseta. Desde aquí no hay por dónde empezar a subir.",
+      "repeatable": true,
+      "effects": []
+    },
+    {
+      "id": "cove_northwest",
+      "label": "Ir al noroeste, por la orilla",
+      "locationId": "cove",
+      "response": "Caminas por el agua poco profunda hasta donde la playa del norte se acaba.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "northeastern_tip" }]
+    },
+    {
+      "id": "forest_beach_east",
+      "label": "Ir al este",
+      "locationId": "beach_by_forest",
+      "response": "Vuelves a la playa inmaculada.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "immaculate_beach" }]
+    },
+    {
+      "id": "forest_beach_north",
+      "label": "Entrar en el claro",
+      "locationId": "beach_by_forest",
+      "response": "Pasas la línea de arbustos y entras en el linde del bosque.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "edge_of_woods" }]
+    },
+    {
+      "id": "forest_beach_west",
+      "label": "Ir al oeste, bajo los acantilados",
+      "locationId": "beach_by_forest",
+      "response": "La playa se estrecha. Pronto caminas entre rocas, al pie del acantilado.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "southwestern_cliffs" }]
+    },
+    {
+      "id": "forest_beach_shrubs",
+      "label": "Examinar los arbustos",
+      "locationId": "beach_by_forest",
+      "response": "Son arbustos bajos, de ramas finas, alineados donde llega la marea. No darían para un fuego.",
+      "repeatable": true,
+      "effects": []
+    },
+    {
+      "id": "edge_south",
+      "label": "Volver a la playa",
+      "locationId": "edge_of_woods",
+      "response": "Bajas del claro a la arena.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "beach_by_forest" }]
+    },
+    {
+      "id": "edge_north",
+      "label": "Adentrarte en el bosque",
+      "locationId": "edge_of_woods",
+      "response": "El claro se cierra. Los árboles se juntan y la luz baja.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "deep_woods" }]
+    },
+    {
+      "id": "edge_smell",
+      "label": "Oler el aire",
+      "locationId": "edge_of_woods",
+      "response": "Huele a humedad y, muy leve, a flor.",
+      "repeatable": true,
+      "effects": []
+    },
+    {
+      "id": "edge_rock",
+      "label": "Mirar bajo la roca musgosa",
+      "locationId": "edge_of_woods",
+      "response": "La roca está ladeada y tiene la cima casi plana. Debajo hay sombra, humedad y unos gusanos gruesos.",
+      "repeatable": true,
+      "effects": []
+    },
+    {
+      "id": "take_flower",
+      "label": "Coger una flor",
+      "locationId": "edge_of_woods",
+      "response": "Eliges una flor especialmente brillante y la coges del árbol.",
+      "repeatable": true,
+      "availability": { "absentItemIds": ["flower"], "absentFlagIds": ["hook_flower"] },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "flower" },
+        { "type": "ADD_JOURNAL", "entryId": "found_flower" }
+      ]
+    },
+    {
+      "id": "take_worm",
+      "label": "Coger un gusano",
+      "locationId": "edge_of_woods",
+      "response": "Te agachas junto a la roca. Los bichos se dispersan. Atrapas un gusano entre dos dedos. Con esa mano no puedes cargar nada más.",
+      "repeatable": true,
+      "availability": { "absentItemIds": ["worm"], "absentFlagIds": ["hook_worm"] },
+      "effects": [{ "type": "ADD_ITEM", "itemId": "worm" }]
+    },
+    {
+      "id": "deep_south",
+      "label": "Volver al claro",
+      "locationId": "deep_woods",
+      "response": "Deshaces el camino hasta el linde.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "edge_of_woods" }]
+    },
+    {
+      "id": "study_stones",
+      "label": "Examinar las piedras blancas",
+      "locationId": "deep_woods",
+      "response": "Están demasiado bien espaciadas. No son un derrumbe: alguien las dejó así, subiendo la ladera. Podría ser una escalera enterrada en barro.",
+      "availability": { "absentFlagIds": ["stones_known"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "stones_known", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "white_stones" },
+        { "type": "ADD_SCORE", "amount": 1 }
+      ]
+    },
+    {
+      "id": "look_stones_again",
+      "label": "Volver a mirar las piedras",
+      "locationId": "deep_woods",
+      "response": "Siguen ahí, afiladas y regulares. Sin quitar el barro no vas a subir por ellas.",
+      "repeatable": true,
+      "availability": { "flagIds": ["stones_known"] },
+      "effects": [{ "type": "SET_FLAG", "key": "stones_known", "value": true }]
+    },
+    {
+      "id": "climb_hill",
+      "label": "Intentar subir la ladera",
+      "locationId": "deep_woods",
+      "response": "La hierba mojada y el barro te harían resbalar contra esas piedras. No es el momento.",
+      "repeatable": true,
+      "effects": []
+    },
+    {
+      "id": "cliffs_east",
+      "label": "Volver al este",
+      "locationId": "southwestern_cliffs",
+      "response": "La arena se ensancha otra vez, junto al bosque.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "beach_by_forest" }]
+    },
+    {
+      "id": "cliffs_northwest",
+      "label": "Ir al noroeste, al estrecho",
+      "locationId": "southwestern_cliffs",
+      "response": "Los acantilados se curvan y encierran una poza.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "narrow_strait" }]
+    },
+    {
+      "id": "strait_southeast",
+      "label": "Volver al sureste",
+      "locationId": "narrow_strait",
+      "response": "Sales del círculo de roca y vuelves al pie del acantilado.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "southwestern_cliffs" }]
+    },
+    {
+      "id": "strait_north",
+      "label": "Seguir al norte",
+      "locationId": "narrow_strait",
+      "response": "La playa continúa, estrecha, pegada al acantilado.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "northwestern_cliffs" }]
+    },
+    {
+      "id": "strait_pool",
+      "label": "Meterte en la poza",
+      "locationId": "narrow_strait",
+      "response": "El agua te llega a las rodillas. Das una vuelta y no ves nada fuera de lo normal.",
+      "repeatable": true,
+      "effects": []
+    },
+    {
+      "id": "north_south",
+      "label": "Volver al sur",
+      "locationId": "northwestern_cliffs",
+      "response": "Regresas al estrecho.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "narrow_strait" }]
+    },
+    {
+      "id": "cliffs_northeast",
+      "label": "Ir al noreste, hacia la tiza",
+      "locationId": "northwestern_cliffs",
+      "response": "La roca se vuelve blanca. Al pie del acantilado hay un muelle, y un bote amarrado.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "northern_cliffs" }]
+    },
+    {
+      "id": "north_southwest",
+      "label": "Volver al suroeste",
+      "locationId": "northern_cliffs",
+      "response": "Dejas el muelle atrás y vuelves a la playa del noroeste.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "northwestern_cliffs" }]
+    },
+    {
+      "id": "north_east",
+      "label": "Ir al este",
+      "locationId": "northern_cliffs",
+      "response": "Sigues la playa hasta que la arena se acaba.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "northeastern_tip" }]
+    },
+    {
+      "id": "examine_boat",
+      "label": "Examinar el bote",
+      "locationId": "northern_cliffs",
+      "response": "El casco tiene una raja y el agua entra. En la popa hay un compartimento de madera. Este bote no va a navegar.",
+      "repeatable": true,
+      "effects": [{ "type": "ADD_JOURNAL", "entryId": "north_boat" }]
+    },
+    {
+      "id": "examine_platform",
+      "label": "Examinar la plataforma",
+      "locationId": "northern_cliffs",
+      "response": "La plataforma cabe una persona. La cuerda sube hasta lo alto del acantilado. Tirar de ella ahora sería una temeridad.",
+      "repeatable": true,
+      "effects": []
+    },
+    {
+      "id": "tip_west",
+      "label": "Volver al oeste, hacia el muelle",
+      "locationId": "northeastern_tip",
+      "response": "Deshaces el camino hasta el bote.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "northern_cliffs" }]
+    },
+    {
+      "id": "tip_southeast",
+      "label": "Ir al sureste, hacia la cala",
+      "locationId": "northeastern_tip",
+      "response": "La costa se abre en una cala pequeña.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "cove" }]
+    },
+    {
+      "id": "tip_southwest",
+      "label": "Intentar el suroeste",
+      "locationId": "northeastern_tip",
+      "response": "El terreno se empina y no hay por dónde pasar.",
+      "repeatable": true,
+      "effects": []
+    },
+    {
+      "id": "end_water",
+      "label": "Entrar en el agua, hacia el sureste",
+      "locationId": "end_of_beach",
+      "response": "El agua está helada. Avanzas hasta que te llega a la cintura.",
+      "repeatable": true,
+      "effects": [{ "type": "ENTER_WATER" }]
+    },
+    {
+      "id": "cove_water",
+      "label": "Entrar en el agua, hacia el este",
+      "locationId": "cove",
+      "response": "El agua está helada. Avanzas hasta que te llega a la cintura.",
+      "repeatable": true,
+      "effects": [{ "type": "ENTER_WATER" }]
+    },
+    {
+      "id": "forest_beach_water",
+      "label": "Entrar en el agua, hacia el sur",
+      "locationId": "beach_by_forest",
+      "response": "El agua está helada. Avanzas hasta que te llega a la cintura.",
+      "repeatable": true,
+      "effects": [{ "type": "ENTER_WATER" }]
+    },
+    {
+      "id": "cliffs_water",
+      "label": "Entrar en el agua, hacia el suroeste",
+      "locationId": "southwestern_cliffs",
+      "response": "El agua está helada, pero el fondo sigue cerca. Apenas te cubre las rodillas.",
+      "repeatable": true,
+      "effects": [{ "type": "ENTER_WATER" }]
+    },
+    {
+      "id": "strait_water",
+      "label": "Entrar en el agua, hacia el oeste",
+      "locationId": "narrow_strait",
+      "response": "Dejas la poza y entras en el mar. El agua te llega a la cintura.",
+      "repeatable": true,
+      "effects": [{ "type": "ENTER_WATER" }]
+    },
+    {
+      "id": "northwest_water",
+      "label": "Entrar en el agua, hacia el noroeste",
+      "locationId": "northwestern_cliffs",
+      "response": "El agua está helada. Avanzas hasta que te llega a la cintura.",
+      "repeatable": true,
+      "effects": [{ "type": "ENTER_WATER" }]
+    },
+    {
+      "id": "north_water",
+      "label": "Entrar en el agua, hacia el norte",
+      "locationId": "northern_cliffs",
+      "response": "El agua está helada. Avanzas hasta que te llega a la cintura.",
+      "repeatable": true,
+      "effects": [{ "type": "ENTER_WATER" }]
+    },
+    {
+      "id": "tip_water",
+      "label": "Entrar en el agua, hacia el noreste",
+      "locationId": "northeastern_tip",
+      "response": "El agua está helada. Avanzas hasta que te llega a la cintura.",
+      "repeatable": true,
+      "effects": [{ "type": "ENTER_WATER" }]
+    },
+    {
+      "id": "open_compartment",
+      "label": "Abrir el compartimento",
+      "locationId": "northern_cliffs",
+      "response": "Pasas los dedos por el borde y consigues abrirlo. Dentro hay una caña, una red y un cuchillo.",
+      "availability": { "absentFlagIds": ["compartment_open"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "compartment_open", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "boat_compartment" }
+      ]
+    },
+    {
+      "id": "take_rod",
+      "label": "Coger la caña",
+      "locationId": "northern_cliffs",
+      "response": "Sacas la caña. El sedal y el anzuelo ya van puestos.",
+      "repeatable": true,
+      "availability": { "flagIds": ["compartment_open"], "absentFlagIds": ["rod_taken"] },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "fishing_rod" },
+        { "type": "SET_FLAG", "key": "rod_taken", "value": true }
+      ]
+    },
+    {
+      "id": "take_net",
+      "label": "Coger la red",
+      "locationId": "northern_cliffs",
+      "response": "Sacas la red. Es larga y pesa. Sola no vas a poder pescar con ella.",
+      "repeatable": true,
+      "availability": { "flagIds": ["compartment_open"], "absentFlagIds": ["net_taken"] },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "fishing_net" },
+        { "type": "SET_FLAG", "key": "net_taken", "value": true }
+      ]
+    },
+    {
+      "id": "take_knife",
+      "label": "Coger el cuchillo",
+      "locationId": "northern_cliffs",
+      "response": "Sacas el cuchillo de destripar.",
+      "repeatable": true,
+      "availability": { "flagIds": ["compartment_open"], "absentFlagIds": ["knife_taken"] },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "fishing_knife" },
+        { "type": "SET_FLAG", "key": "knife_taken", "value": true }
+      ]
+    },
+    {
+      "id": "leave_rod",
+      "label": "Dejar la caña en el compartimento",
+      "locationId": "northern_cliffs",
+      "response": "Devuelves la caña al compartimento.",
+      "repeatable": true,
+      "availability": {
+        "flagIds": ["compartment_open", "rod_taken"],
+        "absentFlagIds": ["hook_worm", "hook_flower"],
+        "itemIds": ["fishing_rod"]
+      },
+      "effects": [
+        { "type": "REMOVE_ITEM", "itemId": "fishing_rod" },
+        { "type": "SET_FLAG", "key": "rod_taken", "value": false }
+      ]
+    },
+    {
+      "id": "leave_net",
+      "label": "Dejar la red en el compartimento",
+      "locationId": "northern_cliffs",
+      "response": "Devuelves la red al compartimento.",
+      "repeatable": true,
+      "availability": { "flagIds": ["compartment_open", "net_taken"], "itemIds": ["fishing_net"] },
+      "effects": [
+        { "type": "REMOVE_ITEM", "itemId": "fishing_net" },
+        { "type": "SET_FLAG", "key": "net_taken", "value": false }
+      ]
+    },
+    {
+      "id": "leave_knife",
+      "label": "Dejar el cuchillo en el compartimento",
+      "locationId": "northern_cliffs",
+      "response": "Devuelves el cuchillo al compartimento.",
+      "repeatable": true,
+      "availability": { "flagIds": ["compartment_open", "knife_taken"], "itemIds": ["fishing_knife"] },
+      "effects": [
+        { "type": "REMOVE_ITEM", "itemId": "fishing_knife" },
+        { "type": "SET_FLAG", "key": "knife_taken", "value": false }
+      ]
+    },
+    {
+      "id": "eat_seaweed",
+      "label": "Comer el alga de debajo del casco",
+      "locationId": "northern_cliffs",
+      "response": "La extiendes en el muelle y esperas a que el sol la seque. Luego te la comes. Sabe a sal. El estómago agradece, pero sigues teniendo hambre.",
+      "availability": { "absentFlagIds": ["seaweed_eaten"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "seaweed_eaten", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "ate_seaweed" },
+        { "type": "ADD_SCORE", "amount": 1 }
+      ]
+    },
+    {
+      "id": "bait_with_worm",
+      "label": "Poner el gusano en el anzuelo",
+      "anywhere": true,
+      "response": "Clavas el gusano en el anzuelo. Servirá de cebo.",
+      "repeatable": true,
+      "availability": { "itemIds": ["worm", "fishing_rod"], "absentFlagIds": ["hook_worm", "ever_hooked_worm"] },
+      "effects": [
+        { "type": "REMOVE_ITEM", "itemId": "worm" },
+        { "type": "SET_FLAG", "key": "hook_worm", "value": true },
+        { "type": "SET_FLAG", "key": "ever_hooked_worm", "value": true },
+        { "type": "ADD_SCORE", "amount": 1 }
+      ]
+    },
+    {
+      "id": "bait_with_worm_again",
+      "label": "Poner el gusano en el anzuelo",
+      "anywhere": true,
+      "response": "Clavas el gusano en el anzuelo. Servirá de cebo.",
+      "repeatable": true,
+      "availability": { "itemIds": ["worm", "fishing_rod"], "flagIds": ["ever_hooked_worm"], "absentFlagIds": ["hook_worm"] },
+      "effects": [
+        { "type": "REMOVE_ITEM", "itemId": "worm" },
+        { "type": "SET_FLAG", "key": "hook_worm", "value": true }
+      ]
+    },
+    {
+      "id": "bait_with_flower",
+      "label": "Poner la flor en el anzuelo",
+      "anywhere": true,
+      "response": "Ensartas la flor en el anzuelo. El color se ve desde lejos.",
+      "repeatable": true,
+      "availability": { "itemIds": ["flower", "fishing_rod"], "absentFlagIds": ["hook_flower", "ever_hooked_flower"] },
+      "effects": [
+        { "type": "REMOVE_ITEM", "itemId": "flower" },
+        { "type": "SET_FLAG", "key": "hook_flower", "value": true },
+        { "type": "SET_FLAG", "key": "ever_hooked_flower", "value": true },
+        { "type": "ADD_SCORE", "amount": 1 }
+      ]
+    },
+    {
+      "id": "bait_with_flower_again",
+      "label": "Poner la flor en el anzuelo",
+      "anywhere": true,
+      "response": "Ensartas la flor en el anzuelo. El color se ve desde lejos.",
+      "repeatable": true,
+      "availability": { "itemIds": ["flower", "fishing_rod"], "flagIds": ["ever_hooked_flower"], "absentFlagIds": ["hook_flower"] },
+      "effects": [
+        { "type": "REMOVE_ITEM", "itemId": "flower" },
+        { "type": "SET_FLAG", "key": "hook_flower", "value": true }
+      ]
+    },
+    {
+      "id": "catch_fish",
+      "label": "Pescar",
+      "locationId": "ocean",
+      "response": "Lanzas el sedal y esperas. Cuando ya ibas a rendirte, la línea se tensa. Cobras un pez gris. Arriba, un albatros enorme empieza a dar vueltas.",
+      "repeatable": true,
+      "availability": {
+        "itemIds": ["fishing_rod"],
+        "absentItemIds": ["fish"],
+        "flagIds": ["hook_worm", "hook_flower"],
+        "absentFlagIds": ["albatross_paid"],
+        "headings": [2, 6]
+      },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "fish" },
+        { "type": "SET_FLAG", "key": "hook_worm", "value": false },
+        { "type": "SET_FLAG", "key": "hook_flower", "value": false },
+        { "type": "SET_FLAG", "key": "albatross_near", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "first_fish" },
+        { "type": "ADD_SCORE", "amount": 5 }
+      ]
+    },
+    {
+      "id": "catch_fish_again",
+      "label": "Pescar",
+      "locationId": "ocean",
+      "response": "Lanzas el sedal y esperas. La línea se tensa otra vez. Cobras un pez gris. Esta vez el cielo sigue vacío.",
+      "repeatable": true,
+      "availability": {
+        "itemIds": ["fishing_rod"],
+        "absentItemIds": ["fish"],
+        "flagIds": ["hook_worm", "hook_flower", "albatross_paid"],
+        "headings": [2, 6]
+      },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "fish" },
+        { "type": "SET_FLAG", "key": "hook_worm", "value": false },
+        { "type": "SET_FLAG", "key": "hook_flower", "value": false }
+      ]
+    },
+    {
+      "id": "give_fish",
+      "label": "Dar el pez al albatros",
+      "anywhere": true,
+      "response": "Levantas el pez. El albatros lo caza al vuelo y se lo traga. Se va detrás de unas rocas. Vuelve un momento, suelta un palo hueco a tus pies y desaparece.",
+      "availability": { "itemIds": ["fish"], "flagIds": ["albatross_near"], "landOnly": true },
+      "effects": [
+        { "type": "REMOVE_ITEM", "itemId": "fish" },
+        { "type": "ADD_ITEM", "itemId": "flute" },
+        { "type": "SET_FLAG", "key": "albatross_paid", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "albatross_flute" }
+      ]
+    },
+    {
+      "id": "examine_tower",
+      "label": "Examinar el mástil",
+      "locationId": "ocean",
+      "response": "No es solo un mástil. Es una torre de vigilancia, con una plataforma y una barandilla. Arriba podría haber una radio.",
+      "availability": { "headings": [1], "minDepth": 1, "absentFlagIds": ["tower_seen"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "tower_seen", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "watchtower" },
+        { "type": "ADD_SCORE", "amount": 1 }
+      ]
+    },
+    {
+      "id": "examine_tower_again",
+      "label": "Volver a mirar la torre",
+      "locationId": "ocean",
+      "response": "La torre sigue ahí, entre los árboles. Desde el agua no llegas.",
+      "repeatable": true,
+      "availability": { "headings": [1], "minDepth": 1, "flagIds": ["tower_seen"] },
+      "effects": []
+    },
+    {
+      "id": "sail_north",
+      "label": "Hacia el norte",
+      "locationId": "ocean",
+      "response": "Sigues el agua.",
+      "repeatable": true,
+      "effects": [{ "type": "SAIL", "direction": 0 }]
+    },
+    {
+      "id": "sail_northeast",
+      "label": "Hacia el noreste",
+      "locationId": "ocean",
+      "response": "Sigues el agua.",
+      "repeatable": true,
+      "effects": [{ "type": "SAIL", "direction": 1 }]
+    },
+    {
+      "id": "sail_east",
+      "label": "Hacia el este",
+      "locationId": "ocean",
+      "response": "Sigues el agua.",
+      "repeatable": true,
+      "effects": [{ "type": "SAIL", "direction": 2 }]
+    },
+    {
+      "id": "sail_southeast",
+      "label": "Hacia el sureste",
+      "locationId": "ocean",
+      "response": "Sigues el agua.",
+      "repeatable": true,
+      "effects": [{ "type": "SAIL", "direction": 3 }]
+    },
+    {
+      "id": "sail_south",
+      "label": "Hacia el sur",
+      "locationId": "ocean",
+      "response": "Sigues el agua.",
+      "repeatable": true,
+      "effects": [{ "type": "SAIL", "direction": 4 }]
+    },
+    {
+      "id": "sail_southwest",
+      "label": "Hacia el suroeste",
+      "locationId": "ocean",
+      "response": "Sigues el agua.",
+      "repeatable": true,
+      "effects": [{ "type": "SAIL", "direction": 5 }]
+    },
+    {
+      "id": "sail_west",
+      "label": "Hacia el oeste",
+      "locationId": "ocean",
+      "response": "Sigues el agua.",
+      "repeatable": true,
+      "effects": [{ "type": "SAIL", "direction": 6 }]
+    },
+    {
+      "id": "sail_northwest",
+      "label": "Hacia el noroeste",
+      "locationId": "ocean",
+      "response": "Sigues el agua.",
+      "repeatable": true,
+      "effects": [{ "type": "SAIL", "direction": 7 }]
+    },
+    {
+      "id": "drop_flute",
+      "label": "Dejar la flauta",
+      "anywhere": true,
+      "response": "Dejas la flauta en el suelo. Ahí sigue.",
+      "repeatable": true,
+      "availability": { "itemIds": ["flute"], "landOnly": true },
+      "effects": [{ "type": "PLACE_ITEM", "itemId": "flute" }]
+    },
+    {
+      "id": "take_flute",
+      "label": "Coger la flauta",
+      "anywhere": true,
+      "response": "Recoges la flauta.",
+      "repeatable": true,
+      "availability": { "placedItemIds": ["flute"], "landOnly": true },
+      "effects": [{ "type": "TAKE_PLACED", "itemId": "flute" }]
+    },
+    {
+      "id": "drop_rod",
+      "label": "Dejar la caña",
+      "anywhere": true,
+      "response": "Dejas la caña en el suelo.",
+      "repeatable": true,
+      "availability": { "itemIds": ["fishing_rod"], "absentFlagIds": ["hook_worm", "hook_flower"], "landOnly": true },
+      "effects": [{ "type": "PLACE_ITEM", "itemId": "fishing_rod" }]
+    },
+    {
+      "id": "take_dropped_rod",
+      "label": "Coger la caña del suelo",
+      "anywhere": true,
+      "response": "Recoges la caña.",
+      "repeatable": true,
+      "availability": { "placedItemIds": ["fishing_rod"], "landOnly": true },
+      "effects": [{ "type": "TAKE_PLACED", "itemId": "fishing_rod" }]
+    },
+    {
+      "id": "cut_branches",
+      "label": "Cortar ramas para leña",
+      "locationId": "edge_of_woods",
+      "response": "Reúnes palos suficientes para un fuego. Casi todos están húmedos.",
+      "availability": { "absentFlagIds": ["wood_cut"], "absentItemIds": ["fishing_knife"] },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "firewood" },
+        { "type": "SET_FLAG", "key": "wood_cut", "value": true },
+        { "type": "ADD_SCORE", "amount": 5 }
+      ]
+    },
+    {
+      "id": "cut_branches_deep",
+      "label": "Cortar ramas para leña",
+      "locationId": "deep_woods",
+      "response": "Reúnes palos suficientes para un fuego. Casi todos están húmedos.",
+      "availability": { "absentFlagIds": ["wood_cut"], "absentItemIds": ["fishing_knife"] },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "firewood" },
+        { "type": "SET_FLAG", "key": "wood_cut", "value": true },
+        { "type": "ADD_SCORE", "amount": 5 }
+      ]
+    },
+    {
+      "id": "cut_branches_knife",
+      "label": "Cortar ramas para leña",
+      "locationId": "edge_of_woods",
+      "response": "Reúnes palos suficientes para un fuego. Dejas el cuchillo sobre una roca para poder cargar la leña. Casi todos los palos están húmedos.",
+      "availability": { "absentFlagIds": ["wood_cut"], "itemIds": ["fishing_knife"] },
+      "effects": [
+        { "type": "PLACE_ITEM", "itemId": "fishing_knife" },
+        { "type": "ADD_ITEM", "itemId": "firewood" },
+        { "type": "SET_FLAG", "key": "wood_cut", "value": true },
+        { "type": "ADD_SCORE", "amount": 5 }
+      ]
+    },
+    {
+      "id": "cut_branches_knife_deep",
+      "label": "Cortar ramas para leña",
+      "locationId": "deep_woods",
+      "response": "Reúnes palos suficientes para un fuego. Dejas el cuchillo sobre una roca para poder cargar la leña. Casi todos los palos están húmedos.",
+      "availability": { "absentFlagIds": ["wood_cut"], "itemIds": ["fishing_knife"] },
+      "effects": [
+        { "type": "PLACE_ITEM", "itemId": "fishing_knife" },
+        { "type": "ADD_ITEM", "itemId": "firewood" },
+        { "type": "SET_FLAG", "key": "wood_cut", "value": true },
+        { "type": "ADD_SCORE", "amount": 5 }
+      ]
+    },
+    {
+      "id": "take_ground_knife",
+      "label": "Coger el cuchillo del suelo",
+      "anywhere": true,
+      "response": "Recoges el cuchillo.",
+      "repeatable": true,
+      "availability": { "placedItemIds": ["fishing_knife"], "landOnly": true },
+      "effects": [{ "type": "TAKE_PLACED", "itemId": "fishing_knife" }]
+    },
+    {
+      "id": "drop_wood_damp",
+      "label": "Dejar la leña al sol",
+      "anywhere": true,
+      "response": "Dejas los palos separados para que se sequen. En la costa norte el sol les da más de lleno.",
+      "repeatable": true,
+      "availability": { "itemIds": ["firewood"], "minWoodDampness": 2, "minDryPerTurn": 1, "landOnly": true },
+      "effects": [{ "type": "PLACE_ITEM", "itemId": "firewood" }]
+    },
+    {
+      "id": "take_wood",
+      "label": "Recoger la leña",
+      "anywhere": true,
+      "response": "Recoges los palos.",
+      "repeatable": true,
+      "availability": { "placedItemIds": ["firewood"], "needsNoFire": true, "landOnly": true },
+      "effects": [{ "type": "TAKE_PLACED", "itemId": "firewood" }]
+    },
+    {
+      "id": "drop_wood_ready",
+      "label": "Montar la hoguera",
+      "anywhere": true,
+      "response": "Los palos ya están secos. Los montas como aprendiste hace años. La hoguera queda lista.",
+      "availability": { "itemIds": ["firewood"], "maxWoodDampness": 1, "needsNoFire": true, "landOnly": true },
+      "effects": [
+        { "type": "PLACE_ITEM", "itemId": "firewood" },
+        { "type": "READY_FIRE" }
+      ]
+    },
+    {
+      "id": "arrange_fire",
+      "label": "Montar la hoguera",
+      "anywhere": true,
+      "response": "Los palos ya están secos. Los montas como aprendiste hace años. La hoguera queda lista.",
+      "availability": { "placedItemIds": ["firewood"], "maxWoodDampness": 1, "needsNoFire": true, "landOnly": true },
+      "effects": [{ "type": "READY_FIRE" }]
+    },
+    {
+      "id": "cook_fish",
+      "label": "Cocinar el pez",
+      "anywhere": true,
+      "response": "Las cerillas están húmedas. Pruebas una tras otra, y la última prende. Alimentas el fuego, vacías el pez con el cuchillo y lo asas. Cuando por fin comes, sabe mejor que cualquier pescado que recuerdes.",
+      "availability": {
+        "placedItemIds": ["firewood"],
+        "itemIds": ["fish", "matchbook", "fishing_knife"],
+        "flagIds": ["albatross_paid"],
+        "needsFire": true,
+        "landOnly": true
+      },
+      "effects": [
+        { "type": "REMOVE_PLACED", "itemId": "firewood" },
+        { "type": "REMOVE_ITEM", "itemId": "fish" },
+        { "type": "REMOVE_ITEM", "itemId": "matchbook" },
+        { "type": "CLEAR_FIRE" },
+        { "type": "SET_FLAG", "key": "ate_fish", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "cooked_meal" },
+        { "type": "ADD_SCORE", "amount": 5 }
+      ]
+    },
+    {
+      "id": "tie_hammock",
+      "label": "Atar la red entre dos árboles",
+      "locationId": "edge_of_woods",
+      "response": "Atas los extremos de la red a dos árboles. Queda una hamaca.",
+      "availability": { "itemIds": ["fishing_net"] },
+      "effects": [
+        { "type": "REMOVE_ITEM", "itemId": "fishing_net" },
+        { "type": "SET_HAMMOCK" }
+      ]
+    },
+    {
+      "id": "tie_hammock_deep",
+      "label": "Atar la red entre dos árboles",
+      "locationId": "deep_woods",
+      "response": "Atas los extremos de la red a dos árboles. Queda una hamaca.",
+      "availability": { "itemIds": ["fishing_net"] },
+      "effects": [
+        { "type": "REMOVE_ITEM", "itemId": "fishing_net" },
+        { "type": "SET_HAMMOCK" }
+      ]
+    },
+    {
+      "id": "sleep_hammock",
+      "label": "Dormir en la hamaca",
+      "anywhere": true,
+      "response": "Te metes en la hamaca. Los nudos se clavan un poco, pero acabas durmiendo. Amaneces con fuerzas.",
+      "availability": { "hammockHere": true, "absentFlagIds": ["slept"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "slept", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "slept_out" },
+        { "type": "ADD_SCORE", "amount": 5 }
+      ]
+    },
+    {
+      "id": "pull_rope_hungry",
+      "label": "Subir a la plataforma y tirar de la cuerda",
+      "locationId": "northern_cliffs",
+      "response": "La plataforma sube unos palmos y te faltan las fuerzas. La bajas con cuidado. Hace falta una comida de verdad, y haber dormido.",
+      "repeatable": true,
+      "availability": { "absentFlagIds": ["ate_fish"] },
+      "effects": []
+    },
+    {
+      "id": "pull_rope_tired",
+      "label": "Subir a la plataforma y tirar de la cuerda",
+      "locationId": "northern_cliffs",
+      "response": "Has comido, pero el esfuerzo te vence a los pocos palmos. Hace falta dormir antes de subir del todo.",
+      "repeatable": true,
+      "availability": { "flagIds": ["ate_fish"], "absentFlagIds": ["slept"] },
+      "effects": []
+    },
+    {
+      "id": "pull_rope_up",
+      "label": "Subir a la plataforma y tirar de la cuerda",
+      "locationId": "northern_cliffs",
+      "response": "Tiras de la cuerda y la plataforma sube. Llegas a la meseta. Hay un poblado vacío. La isla estuvo habitada, y una radio podría seguir ahí.",
+      "availability": { "flagIds": ["ate_fish", "slept"], "absentFlagIds": ["reached_plateau"] },
+      "effects": [
+        { "type": "MOVE_TO", "locationId": "outside_storehouse" },
+        { "type": "SET_FLAG", "key": "reached_plateau", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "plateau_seen" },
+        { "type": "ADD_SCORE", "amount": 5 }
+      ]
+    },
+    {
+      "id": "pull_rope_again",
+      "label": "Subir otra vez a la meseta",
+      "locationId": "northern_cliffs",
+      "response": "La plataforma te deja otra vez fuera del almacén.",
+      "repeatable": true,
+      "availability": { "flagIds": ["ate_fish", "slept", "reached_plateau"] },
+      "effects": [{ "type": "MOVE_TO", "locationId": "outside_storehouse" }]
+    },
+    {
+      "id": "scrape_stairs",
+      "label": "Rascar el barro con el cuchillo",
+      "locationId": "deep_woods",
+      "response": "Con el cuchillo limpias los peldaños. La subida lleva un buen rato, y al final estás en la meseta. Hay un poblado vacío.",
+      "availability": { "flagIds": ["ate_fish", "slept"], "absentFlagIds": ["reached_plateau"], "itemIds": ["fishing_knife"] },
+      "effects": [
+        { "type": "MOVE_TO", "locationId": "top_of_stairs" },
+        { "type": "SET_FLAG", "key": "reached_plateau", "value": true },
+        { "type": "SET_FLAG", "key": "stairs_cleared", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "plateau_seen" },
+        { "type": "ADD_SCORE", "amount": 5 }
+      ]
+    },
+    {
+      "id": "climb_stairs_again",
+      "label": "Subir la escalera",
+      "locationId": "deep_woods",
+      "response": "Los peldaños ya están limpios. Subes hasta la meseta.",
+      "repeatable": true,
+      "availability": { "flagIds": ["stairs_cleared"] },
+      "effects": [{ "type": "MOVE_TO", "locationId": "top_of_stairs" }]
+    },
+    {
+      "id": "leave_plateau_north",
+      "label": "Bajar por la plataforma",
+      "locationId": "outside_storehouse",
+      "response": "La plataforma te deja otra vez en la playa del norte.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "northern_cliffs" }]
+    },
+    {
+      "id": "leave_stairs",
+      "label": "Bajar al bosque",
+      "locationId": "top_of_stairs",
+      "response": "Bajas los peldaños hasta el bosque profundo.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "deep_woods" }]
+    },
+    {
+      "id": "storehouse_south",
+      "label": "Ir al sur, al huerto",
+      "locationId": "outside_storehouse",
+      "response": "Bajas hacia el huerto abandonado.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "community_garden" }]
+    },
+    {
+      "id": "storehouse_southeast",
+      "label": "Ir al sureste, al pub",
+      "locationId": "outside_storehouse",
+      "response": "El camino te deja delante del pub.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "outside_pub" }]
+    },
+    {
+      "id": "storehouse_east",
+      "label": "Ir al este, a la casa del acantilado",
+      "locationId": "outside_storehouse",
+      "response": "Sigues el acantilado hasta la casa.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "cliff_house" }]
+    },
+    {
+      "id": "storehouse_in",
+      "label": "Entrar en el almacén",
+      "locationId": "outside_storehouse",
+      "response": "La puerta está abierta. Entras.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "storehouse_front" }]
+    },
+    {
+      "id": "storehouse_out",
+      "label": "Salir del almacén",
+      "locationId": "storehouse_front",
+      "response": "Sales otra vez al borde del acantilado.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "outside_storehouse" }]
+    },
+    {
+      "id": "look_shelves",
+      "label": "Mirar las estanterías",
+      "locationId": "storehouse_front",
+      "response": "Entre las bombillas de repuesto hay una linterna. La coges.",
+      "availability": { "absentFlagIds": ["torch_found"] },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "torch" },
+        { "type": "SET_FLAG", "key": "torch_found", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "found_torch" },
+        { "type": "ADD_SCORE", "amount": 5 }
+      ]
+    },
+    {
+      "id": "light_torch",
+      "label": "Encender la linterna",
+      "anywhere": true,
+      "response": "Enciendes la linterna.",
+      "repeatable": true,
+      "availability": { "itemIds": ["torch"], "absentFlagIds": ["torch_on"] },
+      "effects": [{ "type": "SET_FLAG", "key": "torch_on", "value": true }]
+    },
+    {
+      "id": "douse_torch",
+      "label": "Apagar la linterna",
+      "anywhere": true,
+      "response": "Apagas la linterna, para no gastar la pila.",
+      "repeatable": true,
+      "availability": { "itemIds": ["torch"], "flagIds": ["torch_on"] },
+      "effects": [{ "type": "SET_FLAG", "key": "torch_on", "value": false }]
+    },
+    {
+      "id": "garden_north",
+      "label": "Ir al norte, al almacén",
+      "locationId": "community_garden",
+      "response": "Vuelves a la puerta del almacén.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "outside_storehouse" }]
+    },
+    {
+      "id": "garden_east",
+      "label": "Ir al este, al pub",
+      "locationId": "community_garden",
+      "response": "Rodeas el pub y sales a la puerta.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "outside_pub" }]
+    },
+    {
+      "id": "garden_south",
+      "label": "Ir al sur, a la casa",
+      "locationId": "community_garden",
+      "response": "El huerto acaba en una casa pequeña.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "pub_landlord_house" }]
+    },
+    {
+      "id": "pub_northwest",
+      "label": "Ir al noroeste, al almacén",
+      "locationId": "outside_pub",
+      "response": "El camino te deja otra vez fuera del almacén.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "outside_storehouse" }]
+    },
+    {
+      "id": "pub_north",
+      "label": "Ir al norte, a la casa del acantilado",
+      "locationId": "outside_pub",
+      "response": "Pasas por detrás de la casa del acantilado.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "cliff_house" }]
+    },
+    {
+      "id": "pub_east",
+      "label": "Ir al este, al centro",
+      "locationId": "outside_pub",
+      "response": "El camino desemboca en el centro del poblado.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "central_plaza" }]
+    },
+    {
+      "id": "pub_west",
+      "label": "Ir al oeste, al huerto",
+      "locationId": "outside_pub",
+      "response": "Detrás del pub está el huerto.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "community_garden" }]
+    },
+    {
+      "id": "pub_southwest",
+      "label": "Ir al suroeste, a la casa",
+      "locationId": "outside_pub",
+      "response": "Llegas a la casa de detrás del pub.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "pub_landlord_house" }]
+    },
+    {
+      "id": "pub_in",
+      "label": "Entrar en el pub",
+      "locationId": "outside_pub",
+      "response": "La puerta del Barco y el Ancla está cerrada.",
+      "repeatable": true,
+      "availability": { "absentFlagIds": ["pub_unlocked"] },
+      "effects": []
+    },
+    {
+      "id": "unlock_pub",
+      "label": "Abrir el pub con la llave",
+      "locationId": "outside_pub",
+      "response": "La llave gira. La puerta del pub se abre.",
+      "availability": { "itemIds": ["pub_key"], "absentFlagIds": ["pub_unlocked"] },
+      "effects": [{ "type": "SET_FLAG", "key": "pub_unlocked", "value": true }]
+    },
+    {
+      "id": "enter_pub",
+      "label": "Entrar en el pub",
+      "locationId": "outside_pub",
+      "response": "Entras en el Barco y el Ancla.",
+      "repeatable": true,
+      "availability": { "flagIds": ["pub_unlocked"] },
+      "effects": [{ "type": "MOVE_TO", "locationId": "inside_pub" }]
+    },
+    {
+      "id": "leave_pub",
+      "label": "Salir del pub",
+      "locationId": "inside_pub",
+      "response": "Sales a la calle.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "outside_pub" }]
+    },
+    {
+      "id": "read_island_map",
+      "label": "Mirar el mapa de la pared",
+      "locationId": "inside_pub",
+      "response": "Hay dos islas. La grande se llama Kingsley. Al suroeste, Tristam. La grande tiene esta meseta, este bosque y estos acantilados. Estás en Kingsley Island.",
+      "availability": { "absentFlagIds": ["island_named"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "island_named", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "kingsley_island" },
+        { "type": "ADD_SCORE", "amount": 2 }
+      ]
+    },
+    {
+      "id": "read_notice",
+      "label": "Leer el tablón",
+      "locationId": "inside_pub",
+      "response": "El papel se titula TURNOS DEL HUERTO. Hay firmas cada día de febrero, hasta el 18. Ese día firma una sola persona. El resto del mes está en blanco.",
+      "availability": { "absentFlagIds": ["notice_read"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "notice_read", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "garden_shifts" }
+      ]
+    },
+    {
+      "id": "look_jukebox",
+      "label": "Mirar la gramola",
+      "locationId": "inside_pub",
+      "response": "Es una BAL-AMi Junior. La lista tiene veinte canciones y la ranura pide monedas. Sin luz, no suena.",
+      "repeatable": true,
+      "availability": { "absentFlagIds": ["generators_on"] },
+      "effects": []
+    },
+    {
+      "id": "look_jukebox_on",
+      "label": "Mirar la gramola",
+      "locationId": "inside_pub",
+      "response": "Es una BAL-AMi Junior. Tiene luz y la lista sigue ahí. La ranura pide una moneda, y ahora no echas ninguna.",
+      "repeatable": true,
+      "availability": { "flagIds": ["generators_on"] },
+      "effects": []
+    },
+    {
+      "id": "enter_kitchen",
+      "label": "Ir a la cocina",
+      "locationId": "inside_pub",
+      "response": "Pasas detrás de la barra.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "pub_kitchen" }]
+    },
+    {
+      "id": "leave_kitchen",
+      "label": "Volver al pub",
+      "locationId": "pub_kitchen",
+      "response": "Sales otra vez a la sala.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "inside_pub" }]
+    },
+    {
+      "id": "take_pot",
+      "label": "Coger una olla",
+      "locationId": "pub_kitchen",
+      "response": "Coges una olla. Las sartenes son demasiado bajas para lo que necesitas.",
+      "availability": { "absentFlagIds": ["pot_taken"] },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "pot" },
+        { "type": "SET_FLAG", "key": "pot_taken", "value": true }
+      ]
+    },
+    {
+      "id": "drop_pot",
+      "label": "Dejar la olla",
+      "anywhere": true,
+      "response": "Dejas la olla en el suelo.",
+      "repeatable": true,
+      "availability": { "itemIds": ["pot"], "landOnly": true },
+      "effects": [{ "type": "PLACE_ITEM", "itemId": "pot" }]
+    },
+    {
+      "id": "take_dropped_pot",
+      "label": "Coger la olla del suelo",
+      "anywhere": true,
+      "response": "Recoges la olla.",
+      "repeatable": true,
+      "availability": { "placedItemIds": ["pot"], "landOnly": true },
+      "effects": [{ "type": "TAKE_PLACED", "itemId": "pot" }]
+    },
+    {
+      "id": "grab_oil",
+      "label": "Sacar el aceite con las manos",
+      "locationId": "pub_kitchen",
+      "response": "Intentas agarrar el aceite. Está pegado a la freidora.",
+      "repeatable": true,
+      "availability": { "absentFlagIds": ["oil_cut"] },
+      "effects": []
+    },
+    {
+      "id": "cut_oil_no_knife",
+      "label": "Cortar un bloque de aceite",
+      "locationId": "pub_kitchen",
+      "response": "Te gustaría cortar un bloque, pero ¿con qué?",
+      "repeatable": true,
+      "availability": { "absentItemIds": ["fishing_knife"], "absentFlagIds": ["oil_cut"] },
+      "effects": []
+    },
+    {
+      "id": "cut_oil",
+      "label": "Cortar el aceite con el cuchillo",
+      "locationId": "pub_kitchen",
+      "response": "Cortas un bloque con el cuchillo de pescar. Tarda, y el cuchillo queda pringado sobre la encimera. El bloque pasa a tus manos.",
+      "availability": { "itemIds": ["fishing_knife"], "absentFlagIds": ["oil_cut", "tank_full"] },
+      "effects": [
+        { "type": "PLACE_ITEM", "itemId": "fishing_knife" },
+        { "type": "ADD_ITEM", "itemId": "cooking_oil" },
+        { "type": "SET_FLAG", "key": "oil_cut", "value": true }
+      ]
+    },
+    {
+      "id": "cut_oil_again",
+      "label": "Cortar más aceite",
+      "locationId": "pub_kitchen",
+      "response": "Ya sacaste aceite, y con eso basta. Si se acaba, sabes dónde hay más.",
+      "repeatable": true,
+      "availability": { "flagIds": ["oil_cut"] },
+      "effects": []
+    },
+    {
+      "id": "put_oil_in_pot",
+      "label": "Meter el aceite en la olla",
+      "anywhere": true,
+      "response": "Metes el bloque en la olla. Pesa menos y mancha menos.",
+      "availability": { "itemIds": ["cooking_oil", "pot"], "landOnly": true },
+      "effects": [
+        { "type": "REMOVE_ITEM", "itemId": "cooking_oil" },
+        { "type": "SET_FLAG", "key": "oil_in_pot", "value": true }
+      ]
+    },
+    {
+      "id": "landlord_north",
+      "label": "Ir al norte, al huerto",
+      "locationId": "pub_landlord_house",
+      "response": "Vuelves al huerto.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "community_garden" }]
+    },
+    {
+      "id": "landlord_northeast",
+      "label": "Ir al noreste, al pub",
+      "locationId": "pub_landlord_house",
+      "response": "Sales otra vez delante del pub.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "outside_pub" }]
+    },
+    {
+      "id": "landlord_east",
+      "label": "Ir al este, a las casas",
+      "locationId": "pub_landlord_house",
+      "response": "Cruzas hasta la hilera de casas.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "houses" }]
+    },
+    {
+      "id": "landlord_southwest",
+      "label": "Ir al suroeste, a la torre",
+      "locationId": "pub_landlord_house",
+      "response": "La torre de acero queda justo encima.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "base_of_tower" }]
+    },
+    {
+      "id": "landlord_in",
+      "label": "Entrar en la casa",
+      "locationId": "pub_landlord_house",
+      "response": "La puerta cede. Dentro huele a cerrado.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "inside_landlord_house" }]
+    },
+    {
+      "id": "landlord_out",
+      "label": "Salir",
+      "locationId": "inside_landlord_house",
+      "response": "Sales otra vez delante de la casa.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "pub_landlord_house" }]
+    },
+    {
+      "id": "open_safe",
+      "label": "Abrir la caja fuerte",
+      "locationId": "inside_landlord_house",
+      "response": "Tiras de la puerta y se abre sin más. Dentro hay una llave. La coges.",
+      "availability": { "absentFlagIds": ["safe_open"] },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "pub_key" },
+        { "type": "SET_FLAG", "key": "safe_open", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "pub_spare_key" },
+        { "type": "ADD_SCORE", "amount": 5 }
+      ]
+    },
+    {
+      "id": "tower_northeast",
+      "label": "Volver a la casa",
+      "locationId": "base_of_tower",
+      "response": "Dejas la torre y vuelves a la casa pequeña.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "pub_landlord_house" }]
+    },
+    {
+      "id": "tower_climb",
+      "label": "Subir por la escalera",
+      "locationId": "base_of_tower",
+      "response": "Faltan los peldaños de abajo. Así no se puede subir.",
+      "repeatable": true,
+      "availability": { "absentFlagIds": ["ladder_fixed"] },
+      "effects": []
+    },
+    {
+      "id": "plaza_north",
+      "label": "Ir al norte, a la tienda",
+      "locationId": "central_plaza",
+      "response": "Llegas a la tienda de Harry.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "shop" }]
+    },
+    {
+      "id": "plaza_south",
+      "label": "Ir al sur, a las casas",
+      "locationId": "central_plaza",
+      "response": "La plaza se estrecha en una hilera de casas.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "houses" }]
+    },
+    {
+      "id": "plaza_east",
+      "label": "Ir al este, a la verja",
+      "locationId": "central_plaza",
+      "response": "El camino acaba en la verja de la casa blanca.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "fence_gate" }]
+    },
+    {
+      "id": "plaza_west",
+      "label": "Ir al oeste, al pub",
+      "locationId": "central_plaza",
+      "response": "Vuelves a la puerta del pub.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "outside_pub" }]
+    },
+    {
+      "id": "plaza_northeast",
+      "label": "Ir al noreste, a los generadores",
+      "locationId": "central_plaza",
+      "response": "Un camino de tierra lleva hasta los generadores.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "generators" }]
+    },
+    {
+      "id": "drink_fountain",
+      "label": "Beber de la fuente",
+      "locationId": "central_plaza",
+      "response": "La bomba sigue funcionando, despacio. El agua es clara y dulce.",
+      "availability": { "absentFlagIds": ["fountain_drank"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "fountain_drank", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "fresh_water" },
+        { "type": "ADD_SCORE", "amount": 1 }
+      ]
+    },
+    {
+      "id": "drink_fountain_again",
+      "label": "Beber otra vez de la fuente",
+      "locationId": "central_plaza",
+      "response": "Bebes otro trago. El agua sigue fresca.",
+      "repeatable": true,
+      "availability": { "flagIds": ["fountain_drank"] },
+      "effects": []
+    },
+    {
+      "id": "houses_north",
+      "label": "Ir al norte, a la plaza",
+      "locationId": "houses",
+      "response": "Las casas se abren otra vez a la plaza.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "central_plaza" }]
+    },
+    {
+      "id": "houses_south",
+      "label": "Ir al sur, a la escalera",
+      "locationId": "houses",
+      "response": "El camino acaba en lo alto de la escalera.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "top_of_stairs" }]
+    },
+    {
+      "id": "houses_east",
+      "label": "Ir al este, al borde",
+      "locationId": "houses",
+      "response": "Sales al borde sur de la meseta, junto a la verja.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "around_fence" }]
+    },
+    {
+      "id": "houses_northeast",
+      "label": "Ir al noreste, a la verja",
+      "locationId": "houses",
+      "response": "Llegas a la puerta de la verja.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "fence_gate" }]
+    },
+    {
+      "id": "houses_west",
+      "label": "Ir al oeste, a la casa del pub",
+      "locationId": "houses",
+      "response": "Cruzas la hierba hasta la casa de detrás del pub.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "pub_landlord_house" }]
+    },
+    {
+      "id": "houses_in",
+      "label": "Probar las puertas",
+      "locationId": "houses",
+      "response": "Todas las puertas están cerradas. La más tosca tiene los goznes por fuera, pero no cede con la mano.",
+      "repeatable": true,
+      "availability": { "absentFlagIds": ["crude_door_open"] },
+      "effects": []
+    },
+    {
+      "id": "stairs_north",
+      "label": "Ir al norte, a las casas",
+      "locationId": "top_of_stairs",
+      "response": "Dejas la escalera y entras en la hilera de casas.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "houses" }]
+    },
+    {
+      "id": "cliff_west",
+      "label": "Ir al oeste, al almacén",
+      "locationId": "cliff_house",
+      "response": "El camino te devuelve al almacén.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "outside_storehouse" }]
+    },
+    {
+      "id": "cliff_east",
+      "label": "Ir al este, a la tienda",
+      "locationId": "cliff_house",
+      "response": "Sigues el acantilado hasta la tienda.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "shop" }]
+    },
+    {
+      "id": "cliff_south",
+      "label": "Ir al sur, al pub",
+      "locationId": "cliff_house",
+      "response": "Detrás de la casa está el pub.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "outside_pub" }]
+    },
+    {
+      "id": "cliff_in",
+      "label": "Entrar en la casa",
+      "locationId": "cliff_house",
+      "response": "La puerta cede. Dentro hay poco.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "inside_cliff_house" }]
+    },
+    {
+      "id": "cliff_out",
+      "label": "Salir",
+      "locationId": "inside_cliff_house",
+      "response": "Sales al camino del acantilado.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "cliff_house" }]
+    },
+    {
+      "id": "sit_chair",
+      "label": "Sentarte en una silla",
+      "locationId": "inside_cliff_house",
+      "response": "Te sientas un rato. Las piernas descansan. El siguiente paso sigue sin estar claro.",
+      "repeatable": true,
+      "effects": []
+    },
+    {
+      "id": "shop_west",
+      "label": "Ir al oeste, a la casa",
+      "locationId": "shop",
+      "response": "Vuelves a la casa del acantilado.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "cliff_house" }]
+    },
+    {
+      "id": "shop_east",
+      "label": "Ir al este, al taller",
+      "locationId": "shop",
+      "response": "Al lado está el taller de madera.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "woodshop" }]
+    },
+    {
+      "id": "shop_south",
+      "label": "Ir al sur, a la plaza",
+      "locationId": "shop",
+      "response": "Bajas al centro del poblado.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "central_plaza" }]
+    },
+    {
+      "id": "shop_north",
+      "label": "Ir al norte, al mirador",
+      "locationId": "shop",
+      "response": "El acantilado se abre en un claro.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "scenic_view" }]
+    },
+    {
+      "id": "shop_in",
+      "label": "Entrar en la tienda",
+      "locationId": "shop",
+      "response": "La puerta está cerrada. El escaparate sigue entero.",
+      "repeatable": true,
+      "availability": { "absentFlagIds": ["shop_smashed"] },
+      "effects": []
+    },
+    {
+      "id": "scenic_south",
+      "label": "Volver a la tienda",
+      "locationId": "scenic_view",
+      "response": "Dejas el mirador y vuelves a la tienda.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "shop" }]
+    },
+    {
+      "id": "wood_west",
+      "label": "Ir al oeste, a la tienda",
+      "locationId": "woodshop",
+      "response": "Vuelves a la tienda de Harry.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "shop" }]
+    },
+    {
+      "id": "wood_south",
+      "label": "Ir al sur, a los generadores",
+      "locationId": "woodshop",
+      "response": "Detrás del taller están los generadores.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "generators" }]
+    },
+    {
+      "id": "wood_in",
+      "label": "Entrar en el taller",
+      "locationId": "woodshop",
+      "response": "La puerta del taller está cerrada.",
+      "repeatable": true,
+      "availability": { "absentFlagIds": ["woodshop_smashed"] },
+      "effects": []
+    },
+    {
+      "id": "gen_north",
+      "label": "Ir al norte, al taller",
+      "locationId": "generators",
+      "response": "Subes hasta el taller de madera.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "woodshop" }]
+    },
+    {
+      "id": "gen_south",
+      "label": "Ir al sur, a la verja",
+      "locationId": "generators",
+      "response": "Sigues la verja hasta la puerta.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "fence_gate" }]
+    },
+    {
+      "id": "gen_southwest",
+      "label": "Ir al suroeste, al centro",
+      "locationId": "generators",
+      "response": "El camino de tierra vuelve a la plaza.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "central_plaza" }]
+    },
+    {
+      "id": "look_bushes",
+      "label": "Mirar los arbustos",
+      "locationId": "generators",
+      "response": "Los arbustos son espesos y pinchan. A la primera no se ve qué hay detrás.",
+      "availability": { "absentFlagIds": ["bush_glanced", "hole_found"] },
+      "effects": [{ "type": "SET_FLAG", "key": "bush_glanced", "value": true }]
+    },
+    {
+      "id": "look_bushes_again",
+      "label": "Buscar entre los arbustos",
+      "locationId": "generators",
+      "response": "Apartas las ramas con cuidado. A ras de suelo hay un agujero en la verja.",
+      "availability": { "flagIds": ["bush_glanced"], "absentFlagIds": ["hole_found"] },
+      "effects": [{ "type": "SET_FLAG", "key": "hole_found", "value": true }]
+    },
+    {
+      "id": "crawl_hole",
+      "label": "Meterte por el agujero",
+      "locationId": "generators",
+      "response": "Gateas hacia atrás entre los arbustos. Las ramas pinchan, pero pasas al otro lado.",
+      "availability": { "flagIds": ["hole_found"], "absentFlagIds": ["crawled_hole", "climbed_tree"] },
+      "effects": [
+        { "type": "MOVE_TO", "locationId": "field" },
+        { "type": "SET_FLAG", "key": "crawled_hole", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "inside_fence" },
+        { "type": "ADD_SCORE", "amount": 5 }
+      ]
+    },
+    {
+      "id": "crawl_hole_later",
+      "label": "Meterte por el agujero",
+      "locationId": "generators",
+      "response": "Ya conoces el recinto. Esta vez pasas por el agujero.",
+      "availability": { "flagIds": ["hole_found", "climbed_tree"], "absentFlagIds": ["crawled_hole"] },
+      "effects": [
+        { "type": "MOVE_TO", "locationId": "field" },
+        { "type": "SET_FLAG", "key": "crawled_hole", "value": true }
+      ]
+    },
+    {
+      "id": "crawl_hole_return",
+      "label": "Meterte por el agujero",
+      "locationId": "generators",
+      "response": "Vuelves a pasar por el agujero.",
+      "repeatable": true,
+      "availability": { "flagIds": ["hole_found", "crawled_hole"] },
+      "effects": [{ "type": "MOVE_TO", "locationId": "field" }]
+    },
+    {
+      "id": "gate_north",
+      "label": "Ir al norte, a los generadores",
+      "locationId": "fence_gate",
+      "response": "Sigues la verja hasta los generadores.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "generators" }]
+    },
+    {
+      "id": "gate_southeast",
+      "label": "Ir al sureste, al borde",
+      "locationId": "fence_gate",
+      "response": "La verja te lleva al borde sur de la meseta.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "around_fence" }]
+    },
+    {
+      "id": "gate_west",
+      "label": "Ir al oeste, al centro",
+      "locationId": "fence_gate",
+      "response": "Dejas la verja y vuelves a la plaza.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "central_plaza" }]
+    },
+    {
+      "id": "gate_southwest",
+      "label": "Ir al suroeste, a las casas",
+      "locationId": "fence_gate",
+      "response": "Un camino de tierra baja hasta las casas.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "houses" }]
+    },
+    {
+      "id": "gate_in",
+      "label": "Abrir la verja",
+      "locationId": "fence_gate",
+      "response": "La puerta está cerrada. El cartel dice que solo entra el personal autorizado.",
+      "repeatable": true,
+      "effects": []
+    },
+    {
+      "id": "edge_west",
+      "label": "Ir al oeste, a las casas",
+      "locationId": "around_fence",
+      "response": "Sigues el borde hasta la hilera de casas.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "houses" }]
+    },
+    {
+      "id": "edge_northwest",
+      "label": "Ir al noroeste, a la verja",
+      "locationId": "around_fence",
+      "response": "La verja te devuelve a la puerta.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "fence_gate" }]
+    },
+    {
+      "id": "climb_tree",
+      "label": "Subir al árbol y cruzar la rama",
+      "locationId": "around_fence",
+      "response": "La rama pasa por encima del alambre. Avanzas a horcajadas, cruje, y caes dentro del recinto. Duele la espalda. No parece haber nada roto.",
+      "availability": { "absentFlagIds": ["crawled_hole", "climbed_tree"] },
+      "effects": [
+        { "type": "MOVE_TO", "locationId": "field" },
+        { "type": "SET_FLAG", "key": "climbed_tree", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "inside_fence" },
+        { "type": "ADD_SCORE", "amount": 5 }
+      ]
+    },
+    {
+      "id": "climb_tree_skip",
+      "label": "Subir al árbol",
+      "locationId": "around_fence",
+      "response": "Ya has entrado por el agujero. No hace falta volver a cruzar esa rama.",
+      "repeatable": true,
+      "availability": { "flagIds": ["crawled_hole"] },
+      "effects": []
+    },
+    {
+      "id": "field_east",
+      "label": "Ir al este, al porche",
+      "locationId": "field",
+      "response": "La hierba acaba en el porche de la casa blanca.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "white_house_porch" }]
+    },
+    {
+      "id": "field_gate",
+      "label": "Abrir la verja desde dentro",
+      "locationId": "field",
+      "response": "También está cerrada por este lado. Hace falta la llave del guardia.",
+      "repeatable": true,
+      "effects": []
+    },
+    {
+      "id": "look_fence",
+      "label": "Mirar la verja de cerca",
+      "locationId": "field",
+      "response": "Entre los arbustos, a ras de suelo, hay un agujero bastante grande para pasar.",
+      "availability": { "absentFlagIds": ["hole_found"] },
+      "effects": [{ "type": "SET_FLAG", "key": "hole_found", "value": true }]
+    },
+    {
+      "id": "crawl_out",
+      "label": "Salir por el agujero",
+      "locationId": "field",
+      "response": "Vuelves a gatear por el agujero y sales junto a los generadores.",
+      "repeatable": true,
+      "availability": { "flagIds": ["hole_found"] },
+      "effects": [{ "type": "MOVE_TO", "locationId": "generators" }]
+    },
+    {
+      "id": "porch_west",
+      "label": "Volver al campo",
+      "locationId": "white_house_porch",
+      "response": "Bajas los escalones y vuelves a la hierba.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "field" }]
+    },
+    {
+      "id": "porch_in",
+      "label": "Probar la puerta de metal",
+      "locationId": "white_house_porch",
+      "response": "No tiene cerradura. El teclado, a la derecha, está muerto. Sin luz no marca nada.",
+      "repeatable": true,
+      "availability": { "absentFlagIds": ["generators_on"] },
+      "effects": []
+    },
+    {
+      "id": "porch_lit",
+      "label": "Probar la puerta de metal",
+      "locationId": "white_house_porch",
+      "response": "El teclado tiene luz. La puerta sigue cerrada: espera un código.",
+      "repeatable": true,
+      "availability": { "flagIds": ["generators_on"], "absentFlagIds": ["code_read", "mansion_entered"] },
+      "effects": []
+    },
+    {
+      "id": "enter_code",
+      "label": "Marcar 5-2-1-8",
+      "locationId": "white_house_porch",
+      "response": "Al marcar el último número, la puerta zumba. El pomo cede y entras. Había dos clases de gente en esta isla: quien pescaba y mantenía el pueblo, sin permiso para pasar la verja, y quien conocía el código. Lo que ocurre en esta casa era el motivo de ocupar la isla.",
+      "availability": { "flagIds": ["generators_on", "code_read"], "absentFlagIds": ["mansion_entered"] },
+      "effects": [
+        { "type": "MOVE_TO", "locationId": "white_house_lobby" },
+        { "type": "SET_FLAG", "key": "mansion_entered", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "mansion_purpose" },
+        { "type": "ADD_SCORE", "amount": 5 }
+      ]
+    },
+    {
+      "id": "enter_mansion",
+      "label": "Entrar en la mansión",
+      "locationId": "white_house_porch",
+      "response": "La puerta de metal sigue abierta. Entras.",
+      "repeatable": true,
+      "availability": { "flagIds": ["mansion_entered"] },
+      "effects": [{ "type": "MOVE_TO", "locationId": "white_house_lobby" }]
+    },
+    {
+      "id": "leave_mansion",
+      "label": "Salir al porche",
+      "locationId": "white_house_lobby",
+      "response": "Abres la puerta de metal y sales al porche.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "white_house_porch" }]
+    },
+    {
+      "id": "lobby_south",
+      "label": "Ir al sur, a la biblioteca",
+      "locationId": "white_house_lobby",
+      "response": "El pasillo acaba en la biblioteca.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "mansion_library" }]
+    },
+    {
+      "id": "library_north",
+      "label": "Volver al recibidor",
+      "locationId": "mansion_library",
+      "response": "Vuelves al recibidor.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "white_house_lobby" }]
+    },
+    {
+      "id": "read_library_book",
+      "label": "Coger un libro",
+      "locationId": "mansion_library",
+      "response": "Coges uno al azar: Fundación, de Isaac Asimov. El lomo está gastado. Lo hojeas y lo devuelves.",
+      "repeatable": true,
+      "effects": []
+    },
+    {
+      "id": "lobby_east",
+      "label": "Ir al este, al comedor",
+      "locationId": "white_house_lobby",
+      "response": "El pasillo ancho acaba en un comedor.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "cafeteria" }]
+    },
+    {
+      "id": "cafeteria_west",
+      "label": "Volver al recibidor",
+      "locationId": "cafeteria",
+      "response": "Vuelves al recibidor.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "white_house_lobby" }]
+    },
+    {
+      "id": "cafeteria_kitchen",
+      "label": "Probar la puerta de la cocina",
+      "locationId": "cafeteria",
+      "response": "Está cerrada con llave, y no tienes ni idea de dónde puede estar.",
+      "repeatable": true,
+      "effects": []
+    },
+    {
+      "id": "sit_cafeteria",
+      "label": "Sentarte en un banco",
+      "locationId": "cafeteria",
+      "response": "Te sientas un rato. El siguiente paso sigue sin estar claro.",
+      "repeatable": true,
+      "effects": []
+    },
+    {
+      "id": "look_under_table",
+      "label": "Mirar debajo de la mesa",
+      "locationId": "cafeteria",
+      "response": "Debajo hay un dibujo del señor Chad, con el letrero de siempre: «¿Cómo que no hay azúcar?».",
+      "availability": { "absentFlagIds": ["chad_seen"] },
+      "effects": [{ "type": "SET_FLAG", "key": "chad_seen", "value": true }]
+    },
+    {
+      "id": "lobby_up",
+      "label": "Subir a la entreplanta",
+      "locationId": "white_house_lobby",
+      "response": "Subes la escalera.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "mezzanine" }]
+    },
+    {
+      "id": "mezzanine_down",
+      "label": "Bajar al recibidor",
+      "locationId": "mezzanine",
+      "response": "Bajas al recibidor.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "white_house_lobby" }]
+    },
+    {
+      "id": "mezzanine_east",
+      "label": "Ir al este, a los dormitorios",
+      "locationId": "mezzanine",
+      "response": "El pasillo de la entreplanta lleva a los dormitorios.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "quarters" }]
+    },
+    {
+      "id": "quarters_west",
+      "label": "Volver a la entreplanta",
+      "locationId": "quarters",
+      "response": "Vuelves a la entreplanta.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "mezzanine" }]
+    },
+    {
+      "id": "quarters_officers",
+      "label": "Probar la puerta de oficiales",
+      "locationId": "quarters",
+      "response": "Dice SOLO OFICIALES. Hace falta una llave, y no sabes dónde está.",
+      "repeatable": true,
+      "effects": []
+    },
+    {
+      "id": "quarters_guard",
+      "label": "Probar la puerta de la guardia",
+      "locationId": "quarters",
+      "response": "Dice GUARDIA. También pide una llave.",
+      "repeatable": true,
+      "effects": []
+    },
+    {
+      "id": "yellow_locked",
+      "label": "Probar la puerta amarilla",
+      "locationId": "quarters",
+      "response": "Es un pestillo de baño. Con una herramienta plana se podría girar.",
+      "repeatable": true,
+      "availability": { "absentItemIds": ["screwdriver"], "absentFlagIds": ["yellow_open"] },
+      "effects": []
+    },
+    {
+      "id": "unlock_yellow_first",
+      "label": "Abrir la puerta amarilla con el destornillador",
+      "locationId": "quarters",
+      "response": "Metes el destornillador en el pestillo y giras. La puerta se abre.",
+      "availability": { "itemIds": ["screwdriver"], "absentFlagIds": ["yellow_open", "quarters_unlocked"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "yellow_open", "value": true },
+        { "type": "SET_FLAG", "key": "quarters_unlocked", "value": true },
+        { "type": "ADD_SCORE", "amount": 5 }
+      ]
+    },
+    {
+      "id": "unlock_yellow_later",
+      "label": "Abrir la puerta amarilla con el destornillador",
+      "locationId": "quarters",
+      "response": "El destornillador gira el pestillo. La puerta se abre.",
+      "availability": { "itemIds": ["screwdriver"], "flagIds": ["quarters_unlocked"], "absentFlagIds": ["yellow_open"] },
+      "effects": [{ "type": "SET_FLAG", "key": "yellow_open", "value": true }]
+    },
+    {
+      "id": "enter_yellow",
+      "label": "Entrar en la habitación amarilla",
+      "locationId": "quarters",
+      "response": "Entras en la habitación amarilla.",
+      "repeatable": true,
+      "availability": { "flagIds": ["yellow_open"] },
+      "effects": [{ "type": "MOVE_TO", "locationId": "yellow_room" }]
+    },
+    {
+      "id": "leave_yellow",
+      "label": "Salir al pasillo",
+      "locationId": "yellow_room",
+      "response": "Sales al pasillo.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "quarters" }]
+    },
+    {
+      "id": "white_locked",
+      "label": "Probar la puerta blanca",
+      "locationId": "quarters",
+      "response": "Es un pestillo de baño. Con una herramienta plana se podría girar.",
+      "repeatable": true,
+      "availability": { "absentItemIds": ["screwdriver"], "absentFlagIds": ["white_open"] },
+      "effects": []
+    },
+    {
+      "id": "unlock_white_first",
+      "label": "Abrir la puerta blanca con el destornillador",
+      "locationId": "quarters",
+      "response": "Metes el destornillador en el pestillo y giras. La puerta se abre.",
+      "availability": { "itemIds": ["screwdriver"], "absentFlagIds": ["white_open", "quarters_unlocked"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "white_open", "value": true },
+        { "type": "SET_FLAG", "key": "quarters_unlocked", "value": true },
+        { "type": "ADD_SCORE", "amount": 5 }
+      ]
+    },
+    {
+      "id": "unlock_white_later",
+      "label": "Abrir la puerta blanca con el destornillador",
+      "locationId": "quarters",
+      "response": "El destornillador gira el pestillo. La puerta se abre.",
+      "availability": { "itemIds": ["screwdriver"], "flagIds": ["quarters_unlocked"], "absentFlagIds": ["white_open"] },
+      "effects": [{ "type": "SET_FLAG", "key": "white_open", "value": true }]
+    },
+    {
+      "id": "enter_white",
+      "label": "Entrar en la habitación blanca",
+      "locationId": "quarters",
+      "response": "Entras en la habitación blanca.",
+      "repeatable": true,
+      "availability": { "flagIds": ["white_open"] },
+      "effects": [{ "type": "MOVE_TO", "locationId": "white_room" }]
+    },
+    {
+      "id": "leave_white",
+      "label": "Salir al pasillo",
+      "locationId": "white_room",
+      "response": "Sales al pasillo.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "quarters" }]
+    },
+    {
+      "id": "take_ball",
+      "label": "Coger la bola de críquet",
+      "locationId": "yellow_room",
+      "response": "En el arcón hay una bola de críquet. La coges.",
+      "availability": { "absentFlagIds": ["ball_taken"] },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "cricket_ball" },
+        { "type": "SET_FLAG", "key": "ball_taken", "value": true }
+      ]
+    },
+    {
+      "id": "take_pump",
+      "label": "Coger la bomba",
+      "locationId": "white_room",
+      "response": "En el arcón hay una bomba de bicicleta. La coges.",
+      "availability": { "absentFlagIds": ["pump_taken"] },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "bike_pump" },
+        { "type": "SET_FLAG", "key": "pump_taken", "value": true }
+      ]
+    },
+    {
+      "id": "drop_ball",
+      "label": "Dejar la bola",
+      "anywhere": true,
+      "response": "Dejas la bola en el suelo.",
+      "repeatable": true,
+      "availability": { "itemIds": ["cricket_ball"], "landOnly": true },
+      "effects": [{ "type": "PLACE_ITEM", "itemId": "cricket_ball" }]
+    },
+    {
+      "id": "take_dropped_ball",
+      "label": "Coger la bola del suelo",
+      "anywhere": true,
+      "response": "Recoges la bola.",
+      "repeatable": true,
+      "availability": { "placedItemIds": ["cricket_ball"], "landOnly": true },
+      "effects": [{ "type": "TAKE_PLACED", "itemId": "cricket_ball" }]
+    },
+    {
+      "id": "drop_pump",
+      "label": "Dejar la bomba",
+      "anywhere": true,
+      "response": "Dejas la bomba en el suelo.",
+      "repeatable": true,
+      "availability": { "itemIds": ["bike_pump"], "landOnly": true },
+      "effects": [{ "type": "PLACE_ITEM", "itemId": "bike_pump" }]
+    },
+    {
+      "id": "take_dropped_pump",
+      "label": "Coger la bomba del suelo",
+      "anywhere": true,
+      "response": "Recoges la bomba.",
+      "repeatable": true,
+      "availability": { "placedItemIds": ["bike_pump"], "landOnly": true },
+      "effects": [{ "type": "TAKE_PLACED", "itemId": "bike_pump" }]
+    },
+    {
+      "id": "drop_screw",
+      "label": "Dejar el tornillo",
+      "anywhere": true,
+      "response": "Dejas el tornillo en el suelo.",
+      "repeatable": true,
+      "availability": { "itemIds": ["pipe_screw"], "landOnly": true },
+      "effects": [{ "type": "PLACE_ITEM", "itemId": "pipe_screw" }]
+    },
+    {
+      "id": "take_dropped_screw",
+      "label": "Coger el tornillo del suelo",
+      "anywhere": true,
+      "response": "Recoges el tornillo.",
+      "repeatable": true,
+      "availability": { "placedItemIds": ["pipe_screw"], "landOnly": true },
+      "effects": [{ "type": "TAKE_PLACED", "itemId": "pipe_screw" }]
+    },
+    {
+      "id": "read_placards",
+      "label": "Leer un aviso",
+      "locationId": "white_house_lobby",
+      "response": "Uno, firmado por el mayor Westwood, dice que el mecanismo abre la puerta del laboratorio. Lo aprobó para mantener la moral, y podría cambiarlo por otro teclado.",
+      "availability": { "absentFlagIds": ["placards_read"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "placards_read", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "westwood_contraption" },
+        { "type": "ADD_SCORE", "amount": 1 }
+      ]
+    },
+    {
+      "id": "read_placards_again",
+      "label": "Leer otro aviso",
+      "locationId": "white_house_lobby",
+      "response": "Otro papel pregunta quién tiene Kensington Gardens, de Brian Moriarty. Steve quería releerlo y no lo encontró en la biblioteca.",
+      "repeatable": true,
+      "availability": { "flagIds": ["placards_read"] },
+      "effects": []
+    },
+    {
+      "id": "turn_statue",
+      "label": "Girar la estatua hacia la entrada",
+      "locationId": "white_house_lobby",
+      "response": "Giras la estatua. El niño, que miraba a la puerta del norte, queda de cara a la entrada.",
+      "availability": { "absentFlagIds": ["statue_turned"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "statue_turned", "value": true },
+        { "type": "ADD_SCORE", "amount": 2 }
+      ]
+    },
+    {
+      "id": "look_cannon",
+      "label": "Examinar el tubo inclinado",
+      "locationId": "white_house_lobby",
+      "response": "Es un tubo ancho, cerrado por abajo, con una boquilla y una palanca. El otro extremo está abierto. Un tubo inclinado, abierto por un lado, con una palanca en medio: un cañón de aire, montado con piezas sueltas.",
+      "availability": { "absentFlagIds": ["cannon_seen"] },
+      "effects": [{ "type": "SET_FLAG", "key": "cannon_seen", "value": true }]
+    },
+    {
+      "id": "plug_pump",
+      "label": "Conectar la bomba al tubo",
+      "locationId": "white_house_lobby",
+      "response": "La bomba encaja en la boquilla del tubo.",
+      "availability": { "itemIds": ["bike_pump"], "absentFlagIds": ["pump_plugged", "pump_scored"] },
+      "effects": [
+        { "type": "REMOVE_ITEM", "itemId": "bike_pump" },
+        { "type": "SET_FLAG", "key": "pump_plugged", "value": true },
+        { "type": "SET_FLAG", "key": "pump_scored", "value": true },
+        { "type": "ADD_SCORE", "amount": 2 }
+      ]
+    },
+    {
+      "id": "plug_pump_again",
+      "label": "Conectar la bomba al tubo",
+      "locationId": "white_house_lobby",
+      "response": "La bomba encaja otra vez en la boquilla.",
+      "repeatable": true,
+      "availability": { "itemIds": ["bike_pump"], "flagIds": ["pump_scored"], "absentFlagIds": ["pump_plugged"] },
+      "effects": [
+        { "type": "REMOVE_ITEM", "itemId": "bike_pump" },
+        { "type": "SET_FLAG", "key": "pump_plugged", "value": true }
+      ]
+    },
+    {
+      "id": "unplug_pump",
+      "label": "Desconectar la bomba",
+      "locationId": "white_house_lobby",
+      "response": "Desconectas la bomba de la boquilla.",
+      "repeatable": true,
+      "availability": { "flagIds": ["pump_plugged"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "pump_plugged", "value": false },
+        { "type": "ADD_ITEM", "itemId": "bike_pump" }
+      ]
+    },
+    {
+      "id": "pump_loose",
+      "label": "Accionar la bomba",
+      "anywhere": true,
+      "response": "Subes y bajas el émbolo. El aire sale por el otro extremo, y no entra en ningún sitio.",
+      "repeatable": true,
+      "availability": { "itemIds": ["bike_pump"], "absentFlagIds": ["pump_plugged"], "landOnly": true },
+      "effects": []
+    },
+    {
+      "id": "pump_air",
+      "label": "Bombear aire en el tubo",
+      "locationId": "white_house_lobby",
+      "response": "Bombeas hasta que la presión no te deja seguir.",
+      "repeatable": true,
+      "availability": { "flagIds": ["pump_plugged"], "absentFlagIds": ["pump_pumped"] },
+      "effects": [{ "type": "SET_FLAG", "key": "pump_pumped", "value": true }]
+    },
+    {
+      "id": "load_ball",
+      "label": "Meter la bola en el tubo",
+      "locationId": "white_house_lobby",
+      "response": "La bola entra en el agujero. Encaja, como si el tubo se hubiera hecho para ella.",
+      "repeatable": true,
+      "availability": { "itemIds": ["cricket_ball"], "absentFlagIds": ["ball_in_cannon"] },
+      "effects": [
+        { "type": "REMOVE_ITEM", "itemId": "cricket_ball" },
+        { "type": "SET_FLAG", "key": "ball_in_cannon", "value": true }
+      ]
+    },
+    {
+      "id": "take_ball_cannon",
+      "label": "Sacar la bola del tubo",
+      "locationId": "white_house_lobby",
+      "response": "Sacas la bola del tubo.",
+      "repeatable": true,
+      "availability": { "flagIds": ["ball_in_cannon"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "ball_in_cannon", "value": false },
+        { "type": "ADD_ITEM", "itemId": "cricket_ball" }
+      ]
+    },
+    {
+      "id": "take_ball_lobby",
+      "label": "Coger la bola del suelo",
+      "locationId": "white_house_lobby",
+      "response": "Recoges la bola.",
+      "repeatable": true,
+      "availability": { "flagIds": ["ball_on_lobby"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "ball_on_lobby", "value": false },
+        { "type": "ADD_ITEM", "itemId": "cricket_ball" }
+      ]
+    },
+    {
+      "id": "pull_lever_blocked",
+      "label": "Tirar de la palanca",
+      "locationId": "white_house_lobby",
+      "response": "Antes conviene arreglar el tubo en forma de U.",
+      "repeatable": true,
+      "availability": { "flagIds": ["pipe_broken"], "absentFlagIds": ["pipe_fixed", "babel_solved"] },
+      "effects": []
+    },
+    {
+      "id": "pull_lever_empty",
+      "label": "Tirar de la palanca",
+      "locationId": "white_house_lobby",
+      "response": "Tiras de la palanca y no pasa nada. La cierras.",
+      "repeatable": true,
+      "availability": { "absentFlagIds": ["pump_pumped", "pipe_broken", "babel_solved"] },
+      "effects": []
+    },
+    {
+      "id": "pull_lever_empty_fixed",
+      "label": "Tirar de la palanca",
+      "locationId": "white_house_lobby",
+      "response": "Tiras de la palanca y no pasa nada. La cierras.",
+      "repeatable": true,
+      "availability": { "flagIds": ["pipe_fixed"], "absentFlagIds": ["pump_pumped", "babel_solved"] },
+      "effects": []
+    },
+    {
+      "id": "pull_lever_air",
+      "label": "Tirar de la palanca",
+      "locationId": "white_house_lobby",
+      "response": "Sale un golpe de aire. El tubo está vacío.",
+      "repeatable": true,
+      "availability": { "flagIds": ["pump_pumped"], "absentFlagIds": ["ball_in_cannon", "pipe_broken", "babel_solved"] },
+      "effects": [{ "type": "SET_FLAG", "key": "pump_pumped", "value": false }]
+    },
+    {
+      "id": "pull_lever_air_fixed",
+      "label": "Tirar de la palanca",
+      "locationId": "white_house_lobby",
+      "response": "Sale un golpe de aire. El tubo está vacío.",
+      "repeatable": true,
+      "availability": { "flagIds": ["pump_pumped", "pipe_fixed"], "absentFlagIds": ["ball_in_cannon", "babel_solved"] },
+      "effects": [{ "type": "SET_FLAG", "key": "pump_pumped", "value": false }]
+    },
+    {
+      "id": "pull_lever_statue",
+      "label": "Tirar de la palanca",
+      "locationId": "white_house_lobby",
+      "response": "La bola sale disparada, choca con la mano de la estatua y cae al suelo.",
+      "repeatable": true,
+      "availability": {
+        "flagIds": ["pump_pumped", "ball_in_cannon"],
+        "absentFlagIds": ["statue_turned", "pipe_broken", "babel_solved"]
+      },
+      "effects": [
+        { "type": "SET_FLAG", "key": "pump_pumped", "value": false },
+        { "type": "SET_FLAG", "key": "ball_in_cannon", "value": false },
+        { "type": "SET_FLAG", "key": "ball_on_lobby", "value": true }
+      ]
+    },
+    {
+      "id": "pull_lever_break",
+      "label": "Tirar de la palanca",
+      "locationId": "white_house_lobby",
+      "response": "La bola entra en el embudo y recorre el tubo. Un tornillo estaba flojo: el tubo se abre y la bola cae en la entreplanta, con el tornillo.",
+      "availability": {
+        "flagIds": ["pump_pumped", "ball_in_cannon", "statue_turned"],
+        "absentFlagIds": ["pipe_broken", "pipe_fixed", "babel_solved"]
+      },
+      "effects": [
+        { "type": "SET_FLAG", "key": "pump_pumped", "value": false },
+        { "type": "SET_FLAG", "key": "ball_in_cannon", "value": false },
+        { "type": "SET_FLAG", "key": "pipe_broken", "value": true },
+        { "type": "SET_FLAG", "key": "ball_on_mezzanine", "value": true },
+        { "type": "SET_FLAG", "key": "screw_ready", "value": true }
+      ]
+    },
+    {
+      "id": "pull_lever_rat",
+      "label": "Tirar de la palanca",
+      "locationId": "white_house_lobby",
+      "response": "La bola cae en el cubo de la derecha. Esperas, pero el cubo no baja. En el cubo de la izquierda hay una rata muerta.",
+      "availability": {
+        "flagIds": ["pump_pumped", "ball_in_cannon", "statue_turned", "pipe_fixed"],
+        "absentFlagIds": ["rat_removed", "babel_solved"]
+      },
+      "effects": [
+        { "type": "SET_FLAG", "key": "pump_pumped", "value": false },
+        { "type": "SET_FLAG", "key": "ball_in_cannon", "value": false },
+        { "type": "SET_FLAG", "key": "ball_in_bucket", "value": true }
+      ]
+    },
+    {
+      "id": "pull_lever_solve",
+      "label": "Tirar de la palanca",
+      "locationId": "white_house_lobby",
+      "response": "La bola cae en el cubo de la derecha. Ese cubo baja, y el de la izquierda sube de golpe. El borde golpea el peso. El peso cae, la cuerda se tensa y queda colgado. La puerta del norte ya no tiene nada detrás.",
+      "availability": {
+        "flagIds": ["pump_pumped", "ball_in_cannon", "statue_turned", "pipe_fixed", "rat_removed"],
+        "absentFlagIds": ["babel_solved"]
+      },
+      "effects": [
+        { "type": "SET_FLAG", "key": "pump_pumped", "value": false },
+        { "type": "SET_FLAG", "key": "ball_in_cannon", "value": false },
+        { "type": "SET_FLAG", "key": "ball_in_bucket", "value": true },
+        { "type": "SET_FLAG", "key": "babel_solved", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "laboratory_door" },
+        { "type": "ADD_SCORE", "amount": 5 }
+      ]
+    },
+    {
+      "id": "take_ball_mezzanine",
+      "label": "Coger la bola",
+      "locationId": "mezzanine",
+      "response": "Recoges la bola de críquet.",
+      "repeatable": true,
+      "availability": { "flagIds": ["ball_on_mezzanine"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "ball_on_mezzanine", "value": false },
+        { "type": "ADD_ITEM", "itemId": "cricket_ball" }
+      ]
+    },
+    {
+      "id": "take_screw",
+      "label": "Coger el tornillo",
+      "locationId": "mezzanine",
+      "response": "El tornillo que sujetaba el tubo está en el suelo. Lo coges.",
+      "availability": { "flagIds": ["screw_ready"], "absentFlagIds": ["screw_taken"] },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "pipe_screw" },
+        { "type": "SET_FLAG", "key": "screw_taken", "value": true },
+        { "type": "SET_FLAG", "key": "screw_ready", "value": false }
+      ]
+    },
+    {
+      "id": "fix_pipe",
+      "label": "Atornillar el tubo",
+      "locationId": "mezzanine",
+      "response": "Te subes a la barandilla, alineas los agujeros y aprietas el tornillo. El tubo vuelve a estar entero.",
+      "availability": { "itemIds": ["screwdriver", "pipe_screw"], "flagIds": ["pipe_broken"], "absentFlagIds": ["pipe_fixed"] },
+      "effects": [
+        { "type": "REMOVE_ITEM", "itemId": "pipe_screw" },
+        { "type": "SET_FLAG", "key": "pipe_fixed", "value": true }
+      ]
+    },
+    {
+      "id": "take_rat",
+      "label": "Sacar la rata del cubo",
+      "locationId": "white_house_lobby",
+      "response": "La coges por la cola y la dejas en el suelo. El cubo sube, y los dos quedan más o menos a la misma altura.",
+      "availability": { "absentFlagIds": ["rat_removed", "ball_in_bucket"] },
+      "effects": [{ "type": "SET_FLAG", "key": "rat_removed", "value": true }]
+    },
+    {
+      "id": "take_rat_solves",
+      "label": "Sacar la rata del cubo",
+      "locationId": "white_house_lobby",
+      "response": "La coges por la cola. En cuanto el cubo queda libre, el de la izquierda sube de golpe y golpea el peso. El peso cae, la cuerda se tensa y queda colgado. La puerta del norte ya no tiene nada detrás.",
+      "availability": { "flagIds": ["ball_in_bucket"], "absentFlagIds": ["rat_removed", "babel_solved"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "rat_removed", "value": true },
+        { "type": "SET_FLAG", "key": "babel_solved", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "laboratory_door" },
+        { "type": "ADD_SCORE", "amount": 5 }
+      ]
+    },
+    {
+      "id": "lobby_north_shut",
+      "label": "Empujar la puerta del norte",
+      "locationId": "white_house_lobby",
+      "response": "No cede. No parece cerrada con llave: hay algo pesado detrás.",
+      "repeatable": true,
+      "availability": { "absentFlagIds": ["babel_solved"] },
+      "effects": []
+    },
+    {
+      "id": "lobby_north",
+      "label": "Entrar por la puerta del norte",
+      "locationId": "white_house_lobby",
+      "response": "La puerta se abre hacia dentro sin esfuerzo.",
+      "repeatable": true,
+      "availability": { "flagIds": ["babel_solved"] },
+      "effects": [{ "type": "MOVE_TO", "locationId": "antechamber" }]
+    },
+    {
+      "id": "antechamber_back",
+      "label": "Volver al recibidor",
+      "locationId": "antechamber",
+      "response": "Vuelves al recibidor. La puerta se queda abierta.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "white_house_lobby" }]
+    },
+    {
+      "id": "enter_elevator",
+      "label": "Entrar en el ascensor",
+      "locationId": "antechamber",
+      "response": "La cabina se abre. Cabe una persona, quizá dos. Entras.",
+      "repeatable": true,
+      "availability": { "absentFlagIds": ["elevator_down"] },
+      "effects": [{ "type": "MOVE_TO", "locationId": "inside_elevator" }]
+    },
+    {
+      "id": "leave_elevator",
+      "label": "Volver a la antesala",
+      "locationId": "inside_elevator",
+      "response": "Sales a la antesala.",
+      "repeatable": true,
+      "availability": { "absentFlagIds": ["elevator_down"] },
+      "effects": [{ "type": "MOVE_TO", "locationId": "antechamber" }]
+    },
+    {
+      "id": "descend",
+      "label": "Pulsar el botón",
+      "locationId": "inside_elevator",
+      "response": "Las puertas se cierran y el ascensor empieza a bajar. Un piso militar, otro civil, una biblioteca de ciencia ficción y un mecanismo en cadena para proteger una puerta. ¿Quiénes eran esos civiles, si no estaban presos, y en qué trabajaban? El ascensor sigue. Se detiene, y al abrirse deja un pasillo largo, solo con luz artificial. Las piezas encajan. Sabes que esta isla guarda un secreto, y que está aquí abajo.",
+      "availability": { "absentFlagIds": ["elevator_down"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "elevator_down", "value": true },
+        { "type": "MOVE_TO", "locationId": "lab_lobby" },
+        { "type": "ADD_JOURNAL", "entryId": "lab_descent" },
+        { "type": "ADD_SCORE", "amount": 5 }
+      ]
+    },
+    {
+      "id": "elevator_up",
+      "label": "Pulsar el botón",
+      "locationId": "inside_elevator",
+      "response": "Podrías volver a subir, pero aquí abajo queda más por ver.",
+      "repeatable": true,
+      "availability": { "flagIds": ["elevator_down"] },
+      "effects": []
+    },
+    {
+      "id": "elevator_to_lobby",
+      "label": "Salir al vestíbulo",
+      "locationId": "inside_elevator",
+      "response": "Sales al vestíbulo del laboratorio.",
+      "repeatable": true,
+      "availability": { "flagIds": ["elevator_down"] },
+      "effects": [{ "type": "MOVE_TO", "locationId": "lab_lobby" }]
+    },
+    {
+      "id": "lobby_to_elevator",
+      "label": "Volver al ascensor",
+      "locationId": "lab_lobby",
+      "response": "Entras otra vez en la cabina.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "inside_elevator" }]
+    },
+    {
+      "id": "comms_locked",
+      "label": "Probar la sala de comunicaciones",
+      "locationId": "lab_lobby",
+      "response": "La placa dice SALA DE COMUNICACIONES. La puerta está cerrada. Hace falta una llave.",
+      "repeatable": true,
+      "availability": { "absentFlagIds": ["comms_open"] },
+      "effects": []
+    },
+    {
+      "id": "look_filing_box",
+      "label": "Mirar la caja del escritorio",
+      "locationId": "lab_lobby",
+      "response": "Es una caja de archivos, llena hasta el borde. Veintiséis separadores, uno por cada letra. No cabe nada más.",
+      "repeatable": true,
+      "availability": { "absentFlagIds": ["filing_taken"] },
+      "effects": []
+    },
+    {
+      "id": "take_filing_box",
+      "label": "Coger la caja de archivos",
+      "locationId": "lab_lobby",
+      "response": "La caja pesa. La levantas con un gruñido.",
+      "availability": { "absentFlagIds": ["filing_taken"] },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "filing_box" },
+        { "type": "SET_FLAG", "key": "filing_taken", "value": true }
+      ]
+    },
+    {
+      "id": "unlock_comms",
+      "label": "Abrir la sala con el llavero",
+      "locationId": "lab_lobby",
+      "response": "Pruebas media docena de llaves. Una abre la sala de comunicaciones.",
+      "availability": { "itemIds": ["master_key"], "absentFlagIds": ["comms_open"] },
+      "effects": [{ "type": "SET_FLAG", "key": "comms_open", "value": true }]
+    },
+    {
+      "id": "enter_comms",
+      "label": "Entrar en la sala de comunicaciones",
+      "locationId": "lab_lobby",
+      "response": "Entras. El transmisor está aquí.",
+      "repeatable": true,
+      "availability": { "flagIds": ["comms_open"] },
+      "effects": [{ "type": "MOVE_TO", "locationId": "comms_room" }]
+    },
+    {
+      "id": "read_poster",
+      "label": "Mirar el cartel",
+      "locationId": "lab_lobby",
+      "response": "Es la explosión de una bomba atómica. En esta isla se trabajaba en pruebas nucleares. Si detonaron una bomba, fue en la isla de al lado, para poder estudiarla después.",
+      "availability": { "absentFlagIds": ["poster_seen", "tristam_seen"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "poster_seen", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "nuclear_poster_near" },
+        { "type": "ADD_SCORE", "amount": 5 }
+      ]
+    },
+    {
+      "id": "read_poster_tristam",
+      "label": "Mirar el cartel",
+      "locationId": "lab_lobby",
+      "response": "Es la explosión de una bomba atómica. En esta isla se trabajaba en pruebas nucleares. Por eso Tristam está quemada: fue el lugar de la detonación, para destruirla y estudiar los efectos.",
+      "availability": { "flagIds": ["tristam_seen"], "absentFlagIds": ["poster_seen"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "poster_seen", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "nuclear_poster" },
+        { "type": "ADD_SCORE", "amount": 5 }
+      ]
+    },
+    {
+      "id": "lobby_south_hall",
+      "label": "Ir al sur, por el pasillo",
+      "locationId": "lab_lobby",
+      "response": "El pasillo se alarga bajo los fluorescentes.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "lab_hall" }]
+    },
+    {
+      "id": "hall_north",
+      "label": "Volver al vestíbulo",
+      "locationId": "lab_hall",
+      "response": "Vuelves al vestíbulo.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "lab_lobby" }]
+    },
+    {
+      "id": "hall_south",
+      "label": "Entrar en el laboratorio",
+      "locationId": "lab_hall",
+      "response": "Entras en el laboratorio.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "lab_bench" }]
+    },
+    {
+      "id": "hall_east",
+      "label": "Seguir al este",
+      "locationId": "lab_hall",
+      "response": "El pasillo llega a un cruce.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "lab_cross" }]
+    },
+    {
+      "id": "bench_north",
+      "label": "Volver al pasillo",
+      "locationId": "lab_bench",
+      "response": "Sales al pasillo.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "lab_hall" }]
+    },
+    {
+      "id": "bench_east",
+      "label": "Ir al este",
+      "locationId": "lab_bench",
+      "response": "El laboratorio sigue en una sala con una pizarra.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "lab_think" }]
+    },
+    {
+      "id": "look_geiger",
+      "label": "Mirar el aparato del dial",
+      "locationId": "lab_bench",
+      "response": "Es un contador Geiger. La aguja marca unas mil cuentas por minuto. Lo dejas en la estantería.",
+      "repeatable": true,
+      "effects": []
+    },
+    {
+      "id": "think_west",
+      "label": "Volver al laboratorio",
+      "locationId": "lab_think",
+      "response": "Vuelves a la sala del banco de trabajo.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "lab_bench" }]
+    },
+    {
+      "id": "think_north",
+      "label": "Salir al cruce",
+      "locationId": "lab_think",
+      "response": "Sales al cruce.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "lab_cross" }]
+    },
+    {
+      "id": "look_blackboard",
+      "label": "Mirar la pizarra",
+      "locationId": "lab_think",
+      "response": "Diagramas y ecuaciones. Uno es una reacción en cadena. En la esquina, el señor Chad pregunta otra vez si no hay azúcar.",
+      "repeatable": true,
+      "effects": []
+    },
+    {
+      "id": "look_chemistry_book",
+      "label": "Mirar el libro enorme",
+      "locationId": "lab_think",
+      "response": "Organic Chemistry 1, de Louis y Mary Fieser. Pesa varios kilos. Lo abres al azar, ves hexágonos imposibles y lo cierras.",
+      "repeatable": true,
+      "availability": { "absentFlagIds": ["chemistry_taken"] },
+      "effects": []
+    },
+    {
+      "id": "take_chemistry_book",
+      "label": "Coger el libro enorme",
+      "locationId": "lab_think",
+      "response": "Pesa varios kilos. Lo coges con las dos manos y luego lo acomodas en una.",
+      "availability": { "absentFlagIds": ["chemistry_taken"] },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "chemistry_book" },
+        { "type": "SET_FLAG", "key": "chemistry_taken", "value": true }
+      ]
+    },
+    {
+      "id": "look_physics_book",
+      "label": "Mirar el libro grueso",
+      "locationId": "lab_think",
+      "response": "Theoretical Nuclear Physics, de Blatt y Weisskopf. Ecuaciones, y la palabra cuántico en cada página. Lo dejas en la estantería.",
+      "repeatable": true,
+      "availability": { "absentFlagIds": ["physics_taken"] },
+      "effects": []
+    },
+    {
+      "id": "take_physics_book",
+      "label": "Coger el libro grueso",
+      "locationId": "lab_think",
+      "response": "Es grueso, aunque menos que el de química. Lo coges.",
+      "availability": { "absentFlagIds": ["physics_taken"] },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "physics_book" },
+        { "type": "SET_FLAG", "key": "physics_taken", "value": true }
+      ]
+    },
+    {
+      "id": "cross_west",
+      "label": "Ir al oeste",
+      "locationId": "lab_cross",
+      "response": "Vuelves al primer tramo del pasillo.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "lab_hall" }]
+    },
+    {
+      "id": "cross_south",
+      "label": "Ir al sur, a la pizarra",
+      "locationId": "lab_cross",
+      "response": "Entras en la sala de la pizarra.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "lab_think" }]
+    },
+    {
+      "id": "cross_north",
+      "label": "Ir al norte, a la sala de reuniones",
+      "locationId": "lab_cross",
+      "response": "Entras en la sala de reuniones.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "conference" }]
+    },
+    {
+      "id": "cross_east",
+      "label": "Ir al este, a las taquillas",
+      "locationId": "lab_cross",
+      "response": "Llegas a las taquillas.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "storage" }]
+    },
+    {
+      "id": "conference_south",
+      "label": "Volver al cruce",
+      "locationId": "conference",
+      "response": "Sales al cruce.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "lab_cross" }]
+    },
+    {
+      "id": "conference_east",
+      "label": "Ir al este, al ventanal",
+      "locationId": "conference",
+      "response": "El pasillo tiene un ventanal enorme.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "hall_window" }]
+    },
+    {
+      "id": "take_chair",
+      "label": "Coger una silla",
+      "locationId": "conference",
+      "response": "Coges la silla más robusta de la mesa.",
+      "availability": { "absentFlagIds": ["chair_taken"] },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "meeting_chair" },
+        { "type": "SET_FLAG", "key": "chair_taken", "value": true }
+      ]
+    },
+    {
+      "id": "read_letter",
+      "label": "Revisar los papeles",
+      "locationId": "conference",
+      "response": "Una carta del doctor Alexander Grant al mayor Westwood pide cancelar la prueba del 15 de febrero de 1962. La bomba supera en cientos de kilotones lo que consideran seguro, por la distancia hasta la isla de al lado. No temen el daño a los edificios. Temen la lluvia radiactiva, las cenizas y un riesgo de cáncer cien veces mayor. Si la detonación sigue adelante, la isla quedaría inhabitable. El pueblo vacío encaja con un abandono ese febrero. Comiste pescado de estas aguas. Hay que encontrar la llave de comunicaciones y salir.",
+      "availability": { "absentFlagIds": ["letter_read", "tristam_seen"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "letter_read", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "grant_warning" }
+      ]
+    },
+    {
+      "id": "read_letter_tristam",
+      "label": "Revisar los papeles",
+      "locationId": "conference",
+      "response": "Una carta del doctor Alexander Grant al mayor Westwood pide cancelar la prueba del 15 de febrero de 1962. La bomba supera en cientos de kilotones lo que consideran seguro, por la distancia hasta Tristam. No temen el daño a los edificios. Temen la lluvia radiactiva. Tristam quemada y el pueblo vacío encajan con una detonación ese febrero, y con cenizas que también cayeron aquí. Comiste pescado de estas aguas. Hay que encontrar la llave de comunicaciones y salir.",
+      "availability": { "flagIds": ["tristam_seen"], "absentFlagIds": ["letter_read"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "letter_read", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "grant_warning" }
+      ]
+    },
+    {
+      "id": "window_west",
+      "label": "Volver a la sala de reuniones",
+      "locationId": "hall_window",
+      "response": "Vuelves a la sala de reuniones.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "conference" }]
+    },
+    {
+      "id": "window_south",
+      "label": "Ir al sur, a las taquillas",
+      "locationId": "hall_window",
+      "response": "Llegas a las taquillas.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "storage" }]
+    },
+    {
+      "id": "window_north",
+      "label": "Ir al norte, a la puerta",
+      "locationId": "hall_window",
+      "response": "El pasillo acaba en la puerta del mayor.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "major_door" }]
+    },
+    {
+      "id": "look_hangar",
+      "label": "Mirar por el ventanal",
+      "locationId": "hall_window",
+      "response": "Al otro lado hay una gruta. El agua brilla, y un muelle de carga ocupa la orilla. No se entra desde aquí, y desde la playa no se veía. En el muelle hay un cajón enorme. Algo, quizá un submarino, atracaba en este sitio.",
+      "availability": { "absentFlagIds": ["hangar_seen"] },
+      "effects": [{ "type": "SET_FLAG", "key": "hangar_seen", "value": true }]
+    },
+    {
+      "id": "look_hangar_again",
+      "label": "Mirar por el ventanal",
+      "locationId": "hall_window",
+      "response": "La gruta, el muelle y el cajón siguen ahí. No hay forma de bajar.",
+      "repeatable": true,
+      "availability": { "flagIds": ["hangar_seen"] },
+      "effects": []
+    },
+    {
+      "id": "storage_north",
+      "label": "Ir al norte, al ventanal",
+      "locationId": "storage",
+      "response": "Vuelves al ventanal.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "hall_window" }]
+    },
+    {
+      "id": "storage_west",
+      "label": "Ir al oeste, al cruce",
+      "locationId": "storage",
+      "response": "Vuelves al cruce.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "lab_cross" }]
+    },
+    {
+      "id": "storage_stairs",
+      "label": "Probar la puerta de la escalera",
+      "locationId": "storage",
+      "response": "Es gruesa y está cerrada. No tienes la llave.",
+      "repeatable": true,
+      "availability": { "absentFlagIds": ["key_taken"] },
+      "effects": []
+    },
+    {
+      "id": "storage_stairs_keyed",
+      "label": "Probar la puerta de la escalera",
+      "locationId": "storage",
+      "response": "Pruebas el llavero del mayor. Ninguna de esas llaves abre esta puerta.",
+      "repeatable": true,
+      "availability": { "flagIds": ["key_taken"] },
+      "effects": []
+    },
+    {
+      "id": "storage_lock",
+      "label": "Girar el candado a ciegas",
+      "locationId": "storage",
+      "response": "El dial está tan gastado que los números casi no se leen. Girarlo a ciegas no abre nada.",
+      "repeatable": true,
+      "availability": { "absentFlagIds": ["locker_unlocked"] },
+      "effects": []
+    },
+    {
+      "id": "listen_lock",
+      "label": "Escuchar el candado",
+      "locationId": "storage",
+      "response": "Giras el dial muy despacio y pegas la oreja. Tres clics, uno tras otro. Tiras y el candado se abre.",
+      "availability": { "absentFlagIds": ["locker_unlocked"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "locker_unlocked", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "locker_clicks" },
+        { "type": "ADD_SCORE", "amount": 5 }
+      ]
+    },
+    {
+      "id": "open_locker",
+      "label": "Abrir la taquilla",
+      "locationId": "storage",
+      "response": "Dentro hay un lío de cables y un micrófono. Era la taquilla del de comunicaciones.",
+      "availability": { "flagIds": ["locker_unlocked"], "absentFlagIds": ["locker_open"] },
+      "effects": [{ "type": "SET_FLAG", "key": "locker_open", "value": true }]
+    },
+    {
+      "id": "take_cable",
+      "label": "Coger un cable",
+      "locationId": "storage",
+      "response": "El micrófono no sirve. Coges un cable al azar. Esperas que sea el de la radio.",
+      "availability": { "flagIds": ["locker_open"], "absentFlagIds": ["cable_taken"] },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "locker_cable" },
+        { "type": "SET_FLAG", "key": "cable_taken", "value": true }
+      ]
+    },
+    {
+      "id": "major_south",
+      "label": "Volver al ventanal",
+      "locationId": "major_door",
+      "response": "Te apartas de la puerta.",
+      "repeatable": true,
+      "effects": [
+        { "type": "SET_FLAG", "key": "on_chair", "value": false },
+        { "type": "MOVE_TO", "locationId": "hall_window" }
+      ]
+    },
+    {
+      "id": "major_locked",
+      "label": "Probar la puerta del mayor",
+      "locationId": "major_door",
+      "response": "El despacho del mayor Westwood está cerrado. Hace falta una llave.",
+      "repeatable": true,
+      "availability": { "absentFlagIds": ["major_open"] },
+      "effects": []
+    },
+    {
+      "id": "look_lamp",
+      "label": "Mirar el fluorescente",
+      "locationId": "major_door",
+      "response": "Alguien dibujó al señor Chad junto a la lámpara, con lo de siempre: ¿y el azúcar? Una loseta del falso techo está torcida y deja un agujero pequeño.",
+      "availability": { "absentFlagIds": ["lamp_seen"] },
+      "effects": [{ "type": "SET_FLAG", "key": "lamp_seen", "value": true }]
+    },
+    {
+      "id": "look_lamp_again",
+      "label": "Mirar el fluorescente",
+      "locationId": "major_door",
+      "response": "El dibujo del señor Chad sigue ahí. La loseta torcida no deja pasar a una persona.",
+      "repeatable": true,
+      "availability": { "flagIds": ["lamp_seen"], "absentFlagIds": ["tile_pushed"] },
+      "effects": []
+    },
+    {
+      "id": "look_hole",
+      "label": "Mirar el agujero del techo",
+      "locationId": "major_door",
+      "response": "Has apartado una loseta. El hueco da al despacho del mayor.",
+      "repeatable": true,
+      "availability": { "flagIds": ["tile_pushed"] },
+      "effects": []
+    },
+    {
+      "id": "stand_on_chair",
+      "label": "Subirte a la silla",
+      "locationId": "major_door",
+      "response": "Pones la silla bajo el fluorescente y te subes.",
+      "repeatable": true,
+      "availability": { "placedItemIds": ["meeting_chair"], "absentFlagIds": ["on_chair"] },
+      "effects": [{ "type": "SET_FLAG", "key": "on_chair", "value": true }]
+    },
+    {
+      "id": "step_off_chair",
+      "label": "Bajar de la silla",
+      "locationId": "major_door",
+      "response": "Bajas de la silla.",
+      "repeatable": true,
+      "availability": { "flagIds": ["on_chair"] },
+      "effects": [{ "type": "SET_FLAG", "key": "on_chair", "value": false }]
+    },
+    {
+      "id": "put_chemistry_on_chair",
+      "label": "Dejar el libro enorme en la silla",
+      "locationId": "major_door",
+      "response": "Dejas el libro enorme sobre la silla. Te sube un par de pulgadas.",
+      "repeatable": true,
+      "availability": { "itemIds": ["chemistry_book"], "placedItemIds": ["meeting_chair"], "absentFlagIds": ["chemistry_on_chair"] },
+      "effects": [
+        { "type": "PLACE_ITEM", "itemId": "chemistry_book" },
+        { "type": "SET_FLAG", "key": "chemistry_on_chair", "value": true }
+      ]
+    },
+    {
+      "id": "put_physics_on_chair",
+      "label": "Dejar el libro grueso en la silla",
+      "locationId": "major_door",
+      "response": "Dejas el libro de física sobre la silla.",
+      "repeatable": true,
+      "availability": { "itemIds": ["physics_book"], "placedItemIds": ["meeting_chair"], "absentFlagIds": ["physics_on_chair"] },
+      "effects": [
+        { "type": "PLACE_ITEM", "itemId": "physics_book" },
+        { "type": "SET_FLAG", "key": "physics_on_chair", "value": true }
+      ]
+    },
+    {
+      "id": "put_filing_on_chair",
+      "label": "Dejar la caja en la silla",
+      "locationId": "major_door",
+      "response": "Dejas la caja de archivos sobre la silla. Está tan llena que no se aplasta.",
+      "repeatable": true,
+      "availability": { "itemIds": ["filing_box"], "placedItemIds": ["meeting_chair"], "absentFlagIds": ["filing_on_chair"] },
+      "effects": [
+        { "type": "PLACE_ITEM", "itemId": "filing_box" },
+        { "type": "SET_FLAG", "key": "filing_on_chair", "value": true }
+      ]
+    },
+    {
+      "id": "reach_from_floor",
+      "label": "Empujar la loseta",
+      "locationId": "major_door",
+      "response": "No llegas. Te falta demasiado.",
+      "repeatable": true,
+      "availability": { "absentFlagIds": ["on_chair", "tile_pushed"] },
+      "effects": []
+    },
+    {
+      "id": "reach_short",
+      "label": "Empujar la loseta",
+      "locationId": "major_door",
+      "response": "Te estiras todo lo que puedes. Te faltan un par de centímetros.",
+      "repeatable": true,
+      "availability": { "flagIds": ["on_chair"], "absentFlagIds": ["chemistry_on_chair", "filing_on_chair", "physics_on_chair", "tile_pushed"] },
+      "effects": []
+    },
+    {
+      "id": "reach_physics",
+      "label": "Empujar la loseta",
+      "locationId": "major_door",
+      "response": "Con el libro de física casi llegas. Te falta menos de un centímetro.",
+      "repeatable": true,
+      "availability": { "flagIds": ["on_chair", "physics_on_chair"], "absentFlagIds": ["chemistry_on_chair", "filing_on_chair", "tile_pushed"] },
+      "effects": []
+    },
+    {
+      "id": "push_with_book",
+      "label": "Empujar la loseta, sobre el libro",
+      "locationId": "major_door",
+      "response": "Levantas el brazo, apoyas la mano en la loseta y la apartas. El agujero ya cabe.",
+      "availability": { "flagIds": ["on_chair", "chemistry_on_chair"], "absentFlagIds": ["tile_pushed"] },
+      "effects": [{ "type": "SET_FLAG", "key": "tile_pushed", "value": true }]
+    },
+    {
+      "id": "push_with_box",
+      "label": "Empujar la loseta, sobre la caja",
+      "locationId": "major_door",
+      "response": "Levantas el brazo, apoyas la mano en la loseta y la apartas. El agujero ya cabe.",
+      "availability": { "flagIds": ["on_chair", "filing_on_chair"], "absentFlagIds": ["tile_pushed"] },
+      "effects": [{ "type": "SET_FLAG", "key": "tile_pushed", "value": true }]
+    },
+    {
+      "id": "climb_with_book",
+      "label": "Trepar por el techo, con el libro",
+      "locationId": "major_door",
+      "response": "El hueco es estrecho, pero los dedos llegan a los soportes. Te impulsas, gateas sobre el falso techo y apartas otra loseta. Caes, de malas maneras, en el despacho del mayor.",
+      "availability": { "flagIds": ["on_chair", "tile_pushed", "chemistry_on_chair"], "absentFlagIds": ["office_entered"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "on_chair", "value": false },
+        { "type": "SET_FLAG", "key": "office_entered", "value": true },
+        { "type": "MOVE_TO", "locationId": "major_office" },
+        { "type": "ADD_JOURNAL", "entryId": "ceiling_office" },
+        { "type": "ADD_SCORE", "amount": 5 }
+      ]
+    },
+    {
+      "id": "climb_with_box",
+      "label": "Trepar por el techo, con la caja",
+      "locationId": "major_door",
+      "response": "El hueco es estrecho, pero los dedos llegan a los soportes. Te impulsas, gateas sobre el falso techo y apartas otra loseta. Caes, de malas maneras, en el despacho del mayor.",
+      "availability": { "flagIds": ["on_chair", "tile_pushed", "filing_on_chair"], "absentFlagIds": ["office_entered"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "on_chair", "value": false },
+        { "type": "SET_FLAG", "key": "office_entered", "value": true },
+        { "type": "MOVE_TO", "locationId": "major_office" },
+        { "type": "ADD_JOURNAL", "entryId": "ceiling_office" },
+        { "type": "ADD_SCORE", "amount": 5 }
+      ]
+    },
+    {
+      "id": "climb_again",
+      "label": "Trepar por el techo",
+      "locationId": "major_door",
+      "response": "Por la puerta se hace menos esfuerzo.",
+      "repeatable": true,
+      "availability": { "flagIds": ["office_entered"] },
+      "effects": []
+    },
+    {
+      "id": "unlock_major",
+      "label": "Abrir el despacho con el llavero",
+      "locationId": "major_door",
+      "response": "Pruebas media docena de llaves. Una abre el despacho.",
+      "availability": { "itemIds": ["master_key"], "absentFlagIds": ["major_open"] },
+      "effects": [{ "type": "SET_FLAG", "key": "major_open", "value": true }]
+    },
+    {
+      "id": "enter_office",
+      "label": "Entrar en el despacho",
+      "locationId": "major_door",
+      "response": "Entras en el despacho del mayor.",
+      "repeatable": true,
+      "availability": { "flagIds": ["major_open"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "on_chair", "value": false },
+        { "type": "MOVE_TO", "locationId": "major_office" }
+      ]
+    },
+    {
+      "id": "search_bin_near",
+      "label": "Revisar la papelera",
+      "locationId": "major_office",
+      "response": "La carta de Grant está arrugada en la papelera. Pide cancelar la prueba del 15 de febrero de 1962: la bomba queda demasiado cerca de la isla de al lado, y teme la lluvia radiactiva. El mayor la tiró.",
+      "availability": { "absentFlagIds": ["letter_read", "tristam_seen"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "letter_read", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "grant_warning" }
+      ]
+    },
+    {
+      "id": "search_bin_tristam",
+      "label": "Revisar la papelera",
+      "locationId": "major_office",
+      "response": "La carta de Grant está arrugada en la papelera. Pide cancelar la prueba del 15 de febrero de 1962 por la distancia hasta Tristam, y teme la lluvia radiactiva. El mayor la tiró. Tristam quemada encaja con eso.",
+      "availability": { "flagIds": ["tristam_seen"], "absentFlagIds": ["letter_read"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "letter_read", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "grant_warning" }
+      ]
+    },
+    {
+      "id": "search_bin_again",
+      "label": "Revisar la papelera",
+      "locationId": "major_office",
+      "response": "Sigue siendo la carta de Grant, arrugada. El mayor no le hizo caso.",
+      "repeatable": true,
+      "availability": { "flagIds": ["letter_read"] },
+      "effects": []
+    },
+    {
+      "id": "open_drawer",
+      "label": "Abrir el cajón",
+      "locationId": "major_office",
+      "response": "El cajón del escritorio guarda un llavero con decenas de llaves.",
+      "availability": { "absentFlagIds": ["drawer_open"] },
+      "effects": [{ "type": "SET_FLAG", "key": "drawer_open", "value": true }]
+    },
+    {
+      "id": "take_master_key",
+      "label": "Coger el llavero",
+      "locationId": "major_office",
+      "response": "Ninguna llave está etiquetada. Habrá que probarlas.",
+      "availability": { "flagIds": ["drawer_open"], "absentFlagIds": ["key_taken"] },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "master_key" },
+        { "type": "SET_FLAG", "key": "key_taken", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "master_keys" },
+        { "type": "ADD_SCORE", "amount": 5 }
+      ]
+    },
+    {
+      "id": "unlock_office_inside",
+      "label": "Abrir la puerta por dentro",
+      "locationId": "major_office",
+      "response": "Pruebas las llaves del cajón en la cerradura. Una abre la puerta. El llavero sigue en el cajón si aún no lo has cogido.",
+      "availability": { "flagIds": ["drawer_open"], "absentFlagIds": ["major_open"] },
+      "effects": [{ "type": "SET_FLAG", "key": "major_open", "value": true }]
+    },
+    {
+      "id": "office_south_shut",
+      "label": "Salir al sur",
+      "locationId": "major_office",
+      "response": "La puerta sigue cerrada por este lado. El agujero del techo queda a tu espalda, y no piensas volver a subir.",
+      "repeatable": true,
+      "availability": { "absentFlagIds": ["major_open"] },
+      "effects": []
+    },
+    {
+      "id": "office_south",
+      "label": "Salir al sur",
+      "locationId": "major_office",
+      "response": "Sales frente a la puerta del mayor.",
+      "repeatable": true,
+      "availability": { "flagIds": ["major_open"] },
+      "effects": [{ "type": "MOVE_TO", "locationId": "major_door" }]
+    },
+    {
+      "id": "comms_east",
+      "label": "Salir al vestíbulo",
+      "locationId": "comms_room",
+      "response": "Vuelves al vestíbulo.",
+      "repeatable": true,
+      "availability": { "absentFlagIds": ["headphones_on"] },
+      "effects": [{ "type": "MOVE_TO", "locationId": "lab_lobby" }]
+    },
+    {
+      "id": "comms_east_phones",
+      "label": "Salir al vestíbulo",
+      "locationId": "comms_room",
+      "response": "Quítate los auriculares antes de salir.",
+      "repeatable": true,
+      "availability": { "flagIds": ["headphones_on"] },
+      "effects": []
+    },
+    {
+      "id": "look_radio",
+      "label": "Mirar el transmisor",
+      "locationId": "comms_room",
+      "response": "El transmisor está encendido. El dial es grande y se lee bien. Una nota pegada dice: Guardacostas, 12.4035 Mc.",
+      "repeatable": true,
+      "effects": []
+    },
+    {
+      "id": "open_radio_panel",
+      "label": "Abrir el panel",
+      "locationId": "comms_room",
+      "response": "Abres el panel. Hay cables, y uno se ha derretido. Por eso no se oye nada.",
+      "availability": { "absentFlagIds": ["panel_open"] },
+      "effects": [{ "type": "SET_FLAG", "key": "panel_open", "value": true }]
+    },
+    {
+      "id": "replace_cable",
+      "label": "Cambiar el cable derretido",
+      "locationId": "comms_room",
+      "response": "Quitas el cable derretido y pones el de la taquilla. Encaja.",
+      "availability": { "itemIds": ["locker_cable"], "flagIds": ["panel_open"], "absentFlagIds": ["cable_fixed"] },
+      "effects": [
+        { "type": "REMOVE_ITEM", "itemId": "locker_cable" },
+        { "type": "SET_FLAG", "key": "cable_fixed", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "radio_cable" },
+        { "type": "ADD_SCORE", "amount": 5 }
+      ]
+    },
+    {
+      "id": "tune_left",
+      "label": "Girar el mando a la izquierda",
+      "locationId": "comms_room",
+      "response": "El mando no se mueve.",
+      "repeatable": true,
+      "effects": [{ "type": "TUNE", "direction": "left" }]
+    },
+    {
+      "id": "tune_right",
+      "label": "Girar el mando a la derecha",
+      "locationId": "comms_room",
+      "response": "El mando no se mueve.",
+      "repeatable": true,
+      "effects": [{ "type": "TUNE", "direction": "right" }]
+    },
+    {
+      "id": "wear_headphones",
+      "label": "Ponerte los auriculares",
+      "locationId": "comms_room",
+      "response": "Te pones los auriculares. No se oye nada.",
+      "repeatable": true,
+      "availability": { "absentFlagIds": ["headphones_on", "cable_fixed"] },
+      "effects": [{ "type": "SET_FLAG", "key": "headphones_on", "value": true }]
+    },
+    {
+      "id": "wear_headphones_live",
+      "label": "Ponerte los auriculares",
+      "locationId": "comms_room",
+      "response": "Te pones los auriculares. Solo hay estática.",
+      "repeatable": true,
+      "availability": { "flagIds": ["cable_fixed"], "absentFlagIds": ["headphones_on"] },
+      "effects": [{ "type": "SET_FLAG", "key": "headphones_on", "value": true }]
+    },
+    {
+      "id": "remove_headphones",
+      "label": "Quitarte los auriculares",
+      "locationId": "comms_room",
+      "response": "Dejas los auriculares en la mesa.",
+      "repeatable": true,
+      "availability": { "flagIds": ["headphones_on"] },
+      "effects": [{ "type": "SET_FLAG", "key": "headphones_on", "value": false }]
+    },
+    {
+      "id": "call_coast_guard",
+      "label": "Pedir ayuda por la radio",
+      "locationId": "comms_room",
+      "response": "La radio no responde.",
+      "repeatable": true,
+      "availability": { "absentFlagIds": ["rescued"] },
+      "effects": [{ "type": "CALL_RADIO" }]
+    },
+    {
+      "id": "pour_solid",
+      "label": "Verter el aceite en el depósito",
+      "locationId": "generators",
+      "response": "La idea es buena, pero los motores beben líquido. Este bloque no entra.",
+      "repeatable": true,
+      "availability": { "itemIds": ["pot"], "flagIds": ["oil_in_pot"], "absentFlagIds": ["oil_melted", "tank_full"] },
+      "effects": []
+    },
+    {
+      "id": "pour_oil",
+      "label": "Verter el aceite en el depósito",
+      "locationId": "generators",
+      "response": "Levantas la olla y viertes el aceite en el depósito. La olla queda vacía.",
+      "availability": { "itemIds": ["pot"], "flagIds": ["oil_melted"], "absentFlagIds": ["tank_full"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "oil_melted", "value": false },
+        { "type": "SET_FLAG", "key": "tank_full", "value": true }
+      ]
+    },
+    {
+      "id": "crank_dry",
+      "label": "Girar la manivela",
+      "locationId": "generators",
+      "response": "La manivela pesa. Das unas vueltas y accionas la palanca. No pasa nada: el depósito está vacío.",
+      "repeatable": true,
+      "availability": { "absentFlagIds": ["tank_full", "generators_on"] },
+      "effects": []
+    },
+    {
+      "id": "crank_generators",
+      "label": "Girar la manivela",
+      "locationId": "generators",
+      "response": "Das unas vueltas y accionas la palanca. El motor se estremece y arranca. Pones en marcha un segundo. La isla vuelve a tener luz.",
+      "availability": { "flagIds": ["tank_full"], "absentFlagIds": ["generators_on"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "generators_on", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "generators_running" },
+        { "type": "ADD_SCORE", "amount": 5 }
+      ]
+    },
+    {
+      "id": "crank_running",
+      "label": "Girar la manivela",
+      "locationId": "generators",
+      "response": "Ya van solos. No necesitan más ayuda.",
+      "repeatable": true,
+      "availability": { "flagIds": ["generators_on"] },
+      "effects": []
+    },
+    {
+      "id": "take_rock",
+      "label": "Coger una piedra del círculo",
+      "locationId": "scenic_view",
+      "response": "Coges una de las piedras grandes. Pesa.",
+      "availability": { "absentFlagIds": ["rock_taken"] },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "large_rock" },
+        { "type": "SET_FLAG", "key": "rock_taken", "value": true }
+      ]
+    },
+    {
+      "id": "drop_rock",
+      "label": "Dejar la piedra",
+      "anywhere": true,
+      "response": "Dejas la piedra en el suelo, cuidando los pies.",
+      "repeatable": true,
+      "availability": { "itemIds": ["large_rock"], "landOnly": true },
+      "effects": [{ "type": "PLACE_ITEM", "itemId": "large_rock" }]
+    },
+    {
+      "id": "take_dropped_rock",
+      "label": "Coger la piedra",
+      "anywhere": true,
+      "response": "Recoges la piedra.",
+      "repeatable": true,
+      "availability": { "placedItemIds": ["large_rock"], "landOnly": true },
+      "effects": [{ "type": "TAKE_PLACED", "itemId": "large_rock" }]
+    },
+    {
+      "id": "light_scenic_fire",
+      "label": "Encender la hoguera con el mechero",
+      "locationId": "scenic_view",
+      "response": "La leña del círculo está seca. El mechero prende las astillas y, en un rato, los troncos arden.",
+      "availability": { "itemIds": ["lighter"], "absentFlagIds": ["scenic_fire"] },
+      "effects": [{ "type": "SET_FLAG", "key": "scenic_fire", "value": true }]
+    },
+    {
+      "id": "light_scenic_no_lighter",
+      "label": "Encender la hoguera",
+      "locationId": "scenic_view",
+      "response": "Los restos están secos, pero no tienes con qué prenderlos.",
+      "repeatable": true,
+      "availability": { "absentItemIds": ["lighter"], "absentFlagIds": ["scenic_fire"] },
+      "effects": []
+    },
+    {
+      "id": "melt_oil_loose",
+      "label": "Poner el bloque en el fuego",
+      "locationId": "scenic_view",
+      "response": "Se derretiría, y no quedaría nada que recoger.",
+      "repeatable": true,
+      "availability": { "itemIds": ["cooking_oil"], "flagIds": ["scenic_fire"] },
+      "effects": []
+    },
+    {
+      "id": "melt_oil",
+      "label": "Derretir el aceite en la hoguera",
+      "locationId": "scenic_view",
+      "response": "Pones la olla sobre el fuego. Las manos se calientan y paras un par de veces. En unos minutos la olla está llena de aceite líquido.",
+      "availability": {
+        "itemIds": ["pot"],
+        "flagIds": ["scenic_fire", "oil_in_pot"],
+        "absentFlagIds": ["oil_melted"]
+      },
+      "effects": [
+        { "type": "SET_FLAG", "key": "oil_in_pot", "value": false },
+        { "type": "SET_FLAG", "key": "oil_melted", "value": true }
+      ]
+    },
+    {
+      "id": "smash_shop",
+      "label": "Lanzar la piedra al escaparate",
+      "locationId": "shop",
+      "response": "Levantas la piedra y la estampas contra el cristal. Salta en un estruendo. La piedra cae dentro.",
+      "availability": { "itemIds": ["large_rock"], "absentFlagIds": ["shop_smashed"] },
+      "effects": [
+        { "type": "REMOVE_ITEM", "itemId": "large_rock" },
+        { "type": "SET_FLAG", "key": "shop_smashed", "value": true },
+        { "type": "SET_FLAG", "key": "rock_in_shop", "value": true },
+        { "type": "SET_FLAG", "key": "rock_in_woodshop", "value": false },
+        { "type": "ADD_JOURNAL", "entryId": "shop_broken" },
+        { "type": "ADD_SCORE", "amount": 2 }
+      ]
+    },
+    {
+      "id": "enter_shop",
+      "label": "Entrar por el escaparate",
+      "locationId": "shop",
+      "response": "Pasas con cuidado por el cristal roto.",
+      "repeatable": true,
+      "availability": { "flagIds": ["shop_smashed"] },
+      "effects": [{ "type": "MOVE_TO", "locationId": "inside_shop" }]
+    },
+    {
+      "id": "leave_shop",
+      "label": "Salir por el escaparate",
+      "locationId": "inside_shop",
+      "response": "Sales otra vez a la calle.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "shop" }]
+    },
+    {
+      "id": "take_rock_shop",
+      "label": "Coger la piedra del suelo",
+      "locationId": "inside_shop",
+      "response": "Recoges la piedra. Todavía sirve.",
+      "availability": { "flagIds": ["rock_in_shop"] },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "large_rock" },
+        { "type": "SET_FLAG", "key": "rock_in_shop", "value": false }
+      ]
+    },
+    {
+      "id": "take_binoculars",
+      "label": "Coger los prismáticos",
+      "locationId": "inside_shop",
+      "response": "Los prismáticos están bien. Los coges.",
+      "availability": { "absentFlagIds": ["binoculars_taken"] },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "binoculars" },
+        { "type": "SET_FLAG", "key": "binoculars_taken", "value": true }
+      ]
+    },
+    {
+      "id": "drop_binoculars",
+      "label": "Dejar los prismáticos",
+      "anywhere": true,
+      "response": "Dejas los prismáticos en el suelo.",
+      "repeatable": true,
+      "availability": { "itemIds": ["binoculars"], "landOnly": true },
+      "effects": [{ "type": "PLACE_ITEM", "itemId": "binoculars" }]
+    },
+    {
+      "id": "take_dropped_binoculars",
+      "label": "Coger los prismáticos del suelo",
+      "anywhere": true,
+      "response": "Recoges los prismáticos.",
+      "repeatable": true,
+      "availability": { "placedItemIds": ["binoculars"], "landOnly": true },
+      "effects": [{ "type": "TAKE_PLACED", "itemId": "binoculars" }]
+    },
+    {
+      "id": "take_lighter",
+      "label": "Coger el mechero",
+      "locationId": "inside_shop",
+      "response": "El mechero enciende. Lo guardas.",
+      "availability": { "absentFlagIds": ["lighter_taken"] },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "lighter" },
+        { "type": "SET_FLAG", "key": "lighter_taken", "value": true }
+      ]
+    },
+    {
+      "id": "drop_lighter",
+      "label": "Dejar el mechero",
+      "anywhere": true,
+      "response": "Dejas el mechero en el suelo.",
+      "repeatable": true,
+      "availability": { "itemIds": ["lighter"], "landOnly": true },
+      "effects": [{ "type": "PLACE_ITEM", "itemId": "lighter" }]
+    },
+    {
+      "id": "take_dropped_lighter",
+      "label": "Coger el mechero del suelo",
+      "anywhere": true,
+      "response": "Recoges el mechero.",
+      "repeatable": true,
+      "availability": { "placedItemIds": ["lighter"], "landOnly": true },
+      "effects": [{ "type": "TAKE_PLACED", "itemId": "lighter" }]
+    },
+    {
+      "id": "take_gum",
+      "label": "Coger el chicle",
+      "locationId": "inside_shop",
+      "response": "Coges el paquete de chicle.",
+      "availability": { "absentFlagIds": ["gum_taken"] },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "chewing_gum" },
+        { "type": "SET_FLAG", "key": "gum_taken", "value": true }
+      ]
+    },
+    {
+      "id": "drop_gum",
+      "label": "Dejar el chicle",
+      "anywhere": true,
+      "response": "Dejas el chicle en el suelo.",
+      "repeatable": true,
+      "availability": { "itemIds": ["chewing_gum"], "landOnly": true },
+      "effects": [{ "type": "PLACE_ITEM", "itemId": "chewing_gum" }]
+    },
+    {
+      "id": "take_dropped_gum",
+      "label": "Coger el chicle del suelo",
+      "anywhere": true,
+      "response": "Recoges el chicle.",
+      "repeatable": true,
+      "availability": { "placedItemIds": ["chewing_gum"], "landOnly": true },
+      "effects": [{ "type": "TAKE_PLACED", "itemId": "chewing_gum" }]
+    },
+    {
+      "id": "chew_gum",
+      "label": "Mascar un chicle",
+      "anywhere": true,
+      "response": "Masticas uno. Sabe a menta, y el sabor aguanta un rato.",
+      "repeatable": true,
+      "availability": { "itemIds": ["chewing_gum"] },
+      "effects": []
+    },
+    {
+      "id": "take_sixpence",
+      "label": "Coger la moneda del mostrador",
+      "locationId": "inside_shop",
+      "response": "Hay una moneda de seis peniques, oxidada. La coges.",
+      "availability": { "absentFlagIds": ["sixpence_taken"] },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "sixpence" },
+        { "type": "SET_FLAG", "key": "sixpence_taken", "value": true }
+      ]
+    },
+    {
+      "id": "drop_sixpence",
+      "label": "Dejar la moneda",
+      "anywhere": true,
+      "response": "Dejas la moneda en el suelo.",
+      "repeatable": true,
+      "availability": { "itemIds": ["sixpence"], "landOnly": true },
+      "effects": [{ "type": "PLACE_ITEM", "itemId": "sixpence" }]
+    },
+    {
+      "id": "take_dropped_sixpence",
+      "label": "Coger la moneda del suelo",
+      "anywhere": true,
+      "response": "Recoges la moneda.",
+      "repeatable": true,
+      "availability": { "placedItemIds": ["sixpence"], "landOnly": true },
+      "effects": [{ "type": "TAKE_PLACED", "itemId": "sixpence" }]
+    },
+    {
+      "id": "read_comic",
+      "label": "Mirar el cómic",
+      "locationId": "inside_shop",
+      "response": "Es The Fantastic Four, del 1 de noviembre de 1961. El primero. Lo dejas en el mostrador: no pesa, pero tampoco hace falta.",
+      "repeatable": true,
+      "effects": []
+    },
+    {
+      "id": "refuse_cigarettes",
+      "label": "Coger el tabaco",
+      "locationId": "inside_shop",
+      "response": "Hay dos paquetes sin abrir. Ahora no es momento de empezar a fumar.",
+      "repeatable": true,
+      "effects": []
+    },
+    {
+      "id": "smash_woodshop",
+      "label": "Lanzar la piedra al ventanal",
+      "locationId": "woodshop",
+      "response": "La piedra rompe el ventanal. Cae dentro del taller.",
+      "availability": { "itemIds": ["large_rock"], "absentFlagIds": ["woodshop_smashed"] },
+      "effects": [
+        { "type": "REMOVE_ITEM", "itemId": "large_rock" },
+        { "type": "SET_FLAG", "key": "woodshop_smashed", "value": true },
+        { "type": "SET_FLAG", "key": "rock_in_woodshop", "value": true },
+        { "type": "SET_FLAG", "key": "rock_in_shop", "value": false },
+        { "type": "ADD_SCORE", "amount": 2 }
+      ]
+    },
+    {
+      "id": "enter_woodshop",
+      "label": "Entrar por el ventanal",
+      "locationId": "woodshop",
+      "response": "Pasas por el ventanal roto.",
+      "repeatable": true,
+      "availability": { "flagIds": ["woodshop_smashed"] },
+      "effects": [{ "type": "MOVE_TO", "locationId": "inside_woodshop" }]
+    },
+    {
+      "id": "leave_woodshop",
+      "label": "Salir por el ventanal",
+      "locationId": "inside_woodshop",
+      "response": "Sales del taller.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "woodshop" }]
+    },
+    {
+      "id": "take_rock_woodshop",
+      "label": "Coger la piedra del suelo",
+      "locationId": "inside_woodshop",
+      "response": "Recoges la piedra.",
+      "availability": { "flagIds": ["rock_in_woodshop"] },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "large_rock" },
+        { "type": "SET_FLAG", "key": "rock_in_woodshop", "value": false }
+      ]
+    },
+    {
+      "id": "take_rungs",
+      "label": "Coger los cilindros de madera",
+      "locationId": "inside_woodshop",
+      "response": "Son tres, del mismo largo. Los coges. Servirían de peldaños.",
+      "availability": { "absentFlagIds": ["rungs_taken"] },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "ladder_rungs" },
+        { "type": "SET_FLAG", "key": "rungs_taken", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "rungs_found" }
+      ]
+    },
+    {
+      "id": "drop_rungs",
+      "label": "Dejar los peldaños",
+      "anywhere": true,
+      "response": "Dejas los peldaños en el suelo.",
+      "repeatable": true,
+      "availability": { "itemIds": ["ladder_rungs"], "landOnly": true },
+      "effects": [{ "type": "PLACE_ITEM", "itemId": "ladder_rungs" }]
+    },
+    {
+      "id": "take_dropped_rungs",
+      "label": "Coger los peldaños del suelo",
+      "anywhere": true,
+      "response": "Recoges los peldaños.",
+      "repeatable": true,
+      "availability": { "placedItemIds": ["ladder_rungs"], "landOnly": true },
+      "effects": [{ "type": "TAKE_PLACED", "itemId": "ladder_rungs" }]
+    },
+    {
+      "id": "take_saw",
+      "label": "Coger la sierra",
+      "locationId": "inside_woodshop",
+      "response": "Coges la sierra de mano.",
+      "availability": { "absentFlagIds": ["saw_taken"] },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "wood_saw" },
+        { "type": "SET_FLAG", "key": "saw_taken", "value": true }
+      ]
+    },
+    {
+      "id": "drop_saw",
+      "label": "Dejar la sierra",
+      "anywhere": true,
+      "response": "Dejas la sierra en el suelo.",
+      "repeatable": true,
+      "availability": { "itemIds": ["wood_saw"], "landOnly": true },
+      "effects": [{ "type": "PLACE_ITEM", "itemId": "wood_saw" }]
+    },
+    {
+      "id": "take_dropped_saw",
+      "label": "Coger la sierra del suelo",
+      "anywhere": true,
+      "response": "Recoges la sierra.",
+      "repeatable": true,
+      "availability": { "placedItemIds": ["wood_saw"], "landOnly": true },
+      "effects": [{ "type": "TAKE_PLACED", "itemId": "wood_saw" }]
+    },
+    {
+      "id": "fix_ladder",
+      "label": "Encajar los peldaños",
+      "locationId": "base_of_tower",
+      "response": "Los cilindros entran en los huecos. Cuesta encontrar el ángulo, pero encajan. La escalera ya se puede subir.",
+      "availability": { "itemIds": ["ladder_rungs"], "absentFlagIds": ["ladder_fixed"] },
+      "effects": [
+        { "type": "REMOVE_ITEM", "itemId": "ladder_rungs" },
+        { "type": "SET_FLAG", "key": "ladder_fixed", "value": true },
+        { "type": "ADD_SCORE", "amount": 5 }
+      ]
+    },
+    {
+      "id": "climb_tower",
+      "label": "Subir a la cima",
+      "locationId": "base_of_tower",
+      "response": "Subes por la escalera reparada.",
+      "repeatable": true,
+      "availability": { "flagIds": ["ladder_fixed"] },
+      "effects": [{ "type": "MOVE_TO", "locationId": "top_of_tower" }]
+    },
+    {
+      "id": "climb_down_tower",
+      "label": "Bajar de la torre",
+      "locationId": "top_of_tower",
+      "response": "Bajas con cuidado hasta el suelo.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "base_of_tower" }]
+    },
+    {
+      "id": "take_screwdriver",
+      "label": "Coger el destornillador",
+      "locationId": "top_of_tower",
+      "response": "Alguien lo dejó aquí. Es plano y está oxidado. Lo coges.",
+      "availability": { "absentFlagIds": ["screwdriver_taken"] },
+      "effects": [
+        { "type": "ADD_ITEM", "itemId": "screwdriver" },
+        { "type": "SET_FLAG", "key": "screwdriver_taken", "value": true }
+      ]
+    },
+    {
+      "id": "drop_screwdriver",
+      "label": "Dejar el destornillador",
+      "anywhere": true,
+      "response": "Dejas el destornillador en el suelo.",
+      "repeatable": true,
+      "availability": { "itemIds": ["screwdriver"], "landOnly": true },
+      "effects": [{ "type": "PLACE_ITEM", "itemId": "screwdriver" }]
+    },
+    {
+      "id": "take_dropped_screwdriver",
+      "label": "Coger el destornillador del suelo",
+      "anywhere": true,
+      "response": "Recoges el destornillador.",
+      "repeatable": true,
+      "availability": { "placedItemIds": ["screwdriver"], "landOnly": true },
+      "effects": [{ "type": "TAKE_PLACED", "itemId": "screwdriver" }]
+    },
+    {
+      "id": "drop_chair",
+      "label": "Dejar la silla",
+      "anywhere": true,
+      "response": "Dejas la silla en el suelo.",
+      "repeatable": true,
+      "availability": { "itemIds": ["meeting_chair"], "landOnly": true },
+      "effects": [{ "type": "PLACE_ITEM", "itemId": "meeting_chair" }]
+    },
+    {
+      "id": "take_dropped_chair",
+      "label": "Coger la silla del suelo",
+      "anywhere": true,
+      "response": "Recoges la silla.",
+      "repeatable": true,
+      "availability": { "placedItemIds": ["meeting_chair"], "landOnly": true },
+      "effects": [
+        { "type": "TAKE_PLACED", "itemId": "meeting_chair" },
+        { "type": "SET_FLAG", "key": "on_chair", "value": false },
+        { "type": "SET_FLAG", "key": "chemistry_on_chair", "value": false },
+        { "type": "SET_FLAG", "key": "physics_on_chair", "value": false },
+        { "type": "SET_FLAG", "key": "filing_on_chair", "value": false }
+      ]
+    },
+    {
+      "id": "drop_chemistry_book",
+      "label": "Dejar el libro enorme",
+      "anywhere": true,
+      "response": "Dejas el libro enorme en el suelo.",
+      "repeatable": true,
+      "availability": { "itemIds": ["chemistry_book"], "landOnly": true },
+      "effects": [{ "type": "PLACE_ITEM", "itemId": "chemistry_book" }]
+    },
+    {
+      "id": "take_dropped_chemistry",
+      "label": "Coger el libro enorme del suelo",
+      "anywhere": true,
+      "response": "Recoges el libro enorme.",
+      "repeatable": true,
+      "availability": { "placedItemIds": ["chemistry_book"], "landOnly": true },
+      "effects": [
+        { "type": "TAKE_PLACED", "itemId": "chemistry_book" },
+        { "type": "SET_FLAG", "key": "chemistry_on_chair", "value": false }
+      ]
+    },
+    {
+      "id": "drop_physics_book",
+      "label": "Dejar el libro grueso",
+      "anywhere": true,
+      "response": "Dejas el libro grueso en el suelo.",
+      "repeatable": true,
+      "availability": { "itemIds": ["physics_book"], "landOnly": true },
+      "effects": [{ "type": "PLACE_ITEM", "itemId": "physics_book" }]
+    },
+    {
+      "id": "take_dropped_physics",
+      "label": "Coger el libro grueso del suelo",
+      "anywhere": true,
+      "response": "Recoges el libro grueso.",
+      "repeatable": true,
+      "availability": { "placedItemIds": ["physics_book"], "landOnly": true },
+      "effects": [
+        { "type": "TAKE_PLACED", "itemId": "physics_book" },
+        { "type": "SET_FLAG", "key": "physics_on_chair", "value": false }
+      ]
+    },
+    {
+      "id": "drop_filing_box",
+      "label": "Dejar la caja de archivos",
+      "anywhere": true,
+      "response": "Dejas la caja en el suelo.",
+      "repeatable": true,
+      "availability": { "itemIds": ["filing_box"], "landOnly": true },
+      "effects": [{ "type": "PLACE_ITEM", "itemId": "filing_box" }]
+    },
+    {
+      "id": "take_dropped_filing",
+      "label": "Coger la caja del suelo",
+      "anywhere": true,
+      "response": "Recoges la caja. Vuelve a pesar.",
+      "repeatable": true,
+      "availability": { "placedItemIds": ["filing_box"], "landOnly": true },
+      "effects": [
+        { "type": "TAKE_PLACED", "itemId": "filing_box" },
+        { "type": "SET_FLAG", "key": "filing_on_chair", "value": false }
+      ]
+    },
+    {
+      "id": "drop_cable",
+      "label": "Dejar el cable",
+      "anywhere": true,
+      "response": "Dejas el cable en el suelo.",
+      "repeatable": true,
+      "availability": { "itemIds": ["locker_cable"], "landOnly": true },
+      "effects": [{ "type": "PLACE_ITEM", "itemId": "locker_cable" }]
+    },
+    {
+      "id": "take_dropped_cable",
+      "label": "Coger el cable del suelo",
+      "anywhere": true,
+      "response": "Recoges el cable.",
+      "repeatable": true,
+      "availability": { "placedItemIds": ["locker_cable"], "landOnly": true },
+      "effects": [{ "type": "TAKE_PLACED", "itemId": "locker_cable" }]
+    },
+    {
+      "id": "drop_master_key",
+      "label": "Dejar el llavero",
+      "anywhere": true,
+      "response": "Dejas el llavero en el suelo.",
+      "repeatable": true,
+      "availability": { "itemIds": ["master_key"], "landOnly": true },
+      "effects": [{ "type": "PLACE_ITEM", "itemId": "master_key" }]
+    },
+    {
+      "id": "take_dropped_master_key",
+      "label": "Coger el llavero del suelo",
+      "anywhere": true,
+      "response": "Recoges el llavero.",
+      "repeatable": true,
+      "availability": { "placedItemIds": ["master_key"], "landOnly": true },
+      "effects": [{ "type": "TAKE_PLACED", "itemId": "master_key" }]
+    },
+    {
+      "id": "look_through_binoculars",
+      "label": "Mirar la isla del sureste con los prismáticos",
+      "locationId": "top_of_tower",
+      "response": "La isla es baja y hostil. Rocas, escombros y matas que no pasan de la rodilla. En la orilla y en la arena de la laguna hay troncos negros, quemados hace mucho. Algo pasó allí.",
+      "availability": { "itemIds": ["binoculars"], "absentFlagIds": ["tristam_seen"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "tristam_seen", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "tristam_charred" },
+        { "type": "ADD_SCORE", "amount": 5 }
+      ]
+    },
+    {
+      "id": "unscrew_door",
+      "label": "Sacar los pasadores con el destornillador",
+      "locationId": "houses",
+      "response": "Metes la punta entre el pasador y el gozne de arriba. Sale. Los otros dos también. La puerta queda libre y la apoyas en la pared.",
+      "availability": { "itemIds": ["screwdriver"], "absentFlagIds": ["crude_door_open"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "crude_door_open", "value": true },
+        { "type": "ADD_SCORE", "amount": 2 }
+      ]
+    },
+    {
+      "id": "enter_crude_house",
+      "label": "Entrar por el hueco de la puerta",
+      "locationId": "houses",
+      "response": "Entras en la casa de la puerta tosca.",
+      "repeatable": true,
+      "availability": { "flagIds": ["crude_door_open"] },
+      "effects": [{ "type": "MOVE_TO", "locationId": "inside_crude_house" }]
+    },
+    {
+      "id": "leave_crude_house",
+      "label": "Salir",
+      "locationId": "inside_crude_house",
+      "response": "Sales a la hilera de casas.",
+      "repeatable": true,
+      "effects": [{ "type": "MOVE_TO", "locationId": "houses" }]
+    },
+    {
+      "id": "read_code_book",
+      "label": "Abrir el libro de la mesilla",
+      "locationId": "inside_crude_house",
+      "response": "Se titula Kensington Gardens, de Brian Moriarty. Habla de un apocalipsis nuclear. En la última página hay cuatro cifras escritas a mano: 5, 2, 1 y 8.",
+      "availability": { "absentFlagIds": ["code_read"] },
+      "effects": [
+        { "type": "SET_FLAG", "key": "code_read", "value": true },
+        { "type": "ADD_JOURNAL", "entryId": "house_code" }
+      ]
+    }
+  ]
+}
